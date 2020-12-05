@@ -1,0 +1,15 @@
+@import './variables.scss';
+
+%container {
+    max-width: $size01;
+    margin: 0 auto;
+    padding: $size03 $size02;
+}
+
+%animation1 {
+    animation-delay: $animation-delay1;
+    animation-duration: $animation-duration1;
+    animation-fill-mode: $animation-fill-mode1;
+    animation-direction: $animation-direction1;
+    animation-timing-function: $animation-timing-function1;
+}
