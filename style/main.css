@@ -34,6 +34,9 @@ table {
 a {
   text-decoration: none; }
 
+button {
+  outline: none; }
+
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div {
   max-width: 1290px;
   margin: 0 auto;
