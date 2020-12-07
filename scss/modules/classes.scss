@@ -13,3 +13,8 @@
     animation-direction: $animation-direction1;
     animation-timing-function: $animation-timing-function1;
 }
+
+%input1 {
+    border: solid 2px $color1;
+    border-radius: 8px;
+}

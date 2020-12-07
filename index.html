@@ -21,6 +21,269 @@
             }
         </script>
     </div>
+    <header>
+        <div class="top">
+            <a class="logo-a" href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+            <div class="customer">
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="password">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                </div>
+                <button>Log In</button>
+                <button>Register</button>
+            </div>
+        </div>
+        <nav class="search-menu">
+            <ul class="main">
+                <li class="main-li women"  onclick="myFunction1()">
+                    <a href="#">Women</a>
+                    <div class="detailed-menu">
+                        <ul class="mini-ul block-ul" id="women">
+                            <li class="mini-li"><a href="">Dresses</a></li>
+                            <li class="mini-li"><a href="">Trousers</a></li>
+                            <li class="mini-li"><a href="">T-shirts</a></li>
+                            <li class="mini-li"><a href="">Shoes</a></li>
+                            <li class="mini-li"><a href="">Accessories</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <script>
+                    function myFunction1() {
+                      document.getElementById("women").className="block-ul";
+                    }
+                </script>
+                <li class="main-li men" onclick="myFunction2()">
+                    <a href="#">Men</a>
+                    <div class="detailed-menu">
+                        <ul class="mini-ul" id="men">
+                            <li class="mini-li"><a href="">Trousers</a></li>
+                            <li class="mini-li"><a href="">T-shirts</a></li>
+                            <li class="mini-li"><a href="">Shoes</a></li>
+                            <li class="mini-li"><a href="">Accessories</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <script>
+                    function myFunction2() {
+                      document.getElementById("men").className="block-ul";
+                    }
+                </script>
+                <li class="main-li kids" onclick="myFunction3()">
+                    <a href="#">Kids</a>
+                    <div class="detailed-menu">
+                        <ul class="mini-ul" id="kids">
+                            <li class="mini-li"><a href="">Dresses</a></li>
+                            <li class="mini-li"><a href="">T-shirts</a></li>
+                            <li class="mini-li"><a href="">Trousers</a></li>
+                            <li class="mini-li"><a href="">Shoes</a></li>
+                            <li class="mini-li"><a href="">Accessories</a></li>
+                            <li class="mini-li"><a href="">Toys</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <script>
+                    function myFunction3() {
+                      document.getElementById("kids").className="block-ul";
+                    }
+                </script>
+                <li class="main-li arrivals" onclick="myFunction4()">
+                    <a href="#">New Arrivals</a>
+                    <div class="detailed-menu">
+                        <ul class="mini-ul" id="arrivals">
+                            <li class="mini-li"><a href="">Women</a></li>
+                            <li class="mini-li"><a href="">Men</a></li>
+                            <li class="mini-li"><a href="">Kids</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <script>
+                    function myFunction4() {
+                      document.getElementById("arrivals").className="block-ul";
+                    }
+                </script>
+            </ul>
+            
+            <div class="search">
+                <input type="search" id="search" placeholder="Search">
+                <img src="images/search.svg" alt="">
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="slider">
+            <img class="slides" src="images/slider1.png" alt="Slide Image">
+            <img class="slides" src="images/slider2.jpg" alt="Slide Image">
+            <img class="slides" src="images/slider3.jpg" alt="Slide Image">
+            <button class="slide-button-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="slide-button-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+    
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+    
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("slides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+                  }
+                  x[slideIndex-1].style.display = "block"
+                }
+        </script>
+        <div class="bottom-container">
+            <div class="sticky">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JxEuGnmT17w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="stores-div">
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-div">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <nav class="footer-nav">
+                <ul>
+                    <li class="footer-li"><a href="index.html">Home</a></li>
+                    <li class="footer-li"><a href="#">About Us</a></li>
+                    <li class="footer-li"><a href="#">Contact Us</a></li>
+                    <li class="footer-li"><a href="#">Terms and Conditions</a></li>
+                    <li class="footer-li"><a href="#">Stores</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <ul class="icons-ul">
+                    <li><a href="#"><img class="icon" src="images/fb.svg" alt="FB"></a></li>
+                    <li><a href="#"><img class="icon" src="images/ig.svg" alt="IG"></a></li>
+                    <li><a href="#"><img class="icon" src="images/twitter.svg" alt="Twitter"></a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </footer>
     
 </body>
 </html>
