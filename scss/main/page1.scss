@@ -66,7 +66,6 @@ body {
         right: 50%;
         transform: translate(80%,-50%);
         z-index: 100;
-        
         animation-name: intro-button;
         @extend %animation1;
         @keyframes intro-button {
@@ -75,6 +74,9 @@ body {
             98% { right: 55%;}
             100% {right: 60%}
         }
+    }
+    .start-button:hover {
+        font-size: $font5;
     }
     .transform-active {
         transition: visibility 1s ease;
@@ -125,6 +127,9 @@ body {
                     background-color: transparent;
                     @extend %input1;
                 }
+                button:hover {
+                    font-size: $font4;
+                }
             }
             .customer:nth-child(4) {
                 margin-left: 15px;
@@ -174,10 +179,24 @@ body {
                 justify-content: space-between;
                 input {
                     @extend %input1;
+                    font-size: $font3;
+                    padding: 2px 5px;
+                    width: 102px;
                 }
-                img {
-                    height: 20px;
-                    margin-left: 15px;
+                .search-button {
+                    background-color: transparent;
+                    img {
+                        height: $size03;
+                        width: $size03;
+                        height: 100%;
+                        margin-left: 15px;
+                        object-fit: contain;
+                    }
+                }
+                .search-button:hover {
+                    img {
+                        height: $size02;
+                    }
                 }
             }
 
@@ -201,21 +220,23 @@ body {
                 position: absolute;
                 top: 50%;
                 left: 5px;
-                /*transform: translate(0, 50%);*/
+                transform: translate(0, -50%);
                 z-index: 9;
                 color: black;
                 font-size: 25px;
                 background-color: $color3;
+                @extend %input1;
             }
             .slide-button-right {
                 position: absolute;
                 top: 50%;
                 right: 5px;
-                /*transform: translate(0, 50%);*/
+                transform: translate(0, -50%);
                 z-index: 9;
                 color: black;
                 font-size: 25px;
                 background-color: $color3;
+                @extend %input1;
             }
         }
         .bottom-container {
@@ -246,20 +267,39 @@ body {
                     border-radius: 20px;
                     box-shadow: 0px 0px 46px -11px $color3;
                     position: relative;
+                    background-color: $color2;
                     img {
                         width: 100%;
                         height: 100%;
                         object-fit: contain;
-                        opacity: 50%;
+                        border-radius: 20px;
                     }
                     .store {
                         position: absolute;
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 20px;
+                        display: hidden;
                         h4 {
-                            font-size: $font3
+                            display: none;
+                            font-size: $font1;
+                            color: $color03;
+                            margin: 38% 30%;
                         }
+                    }
+                }
+                a:hover img {
+                    opacity:10%;
+                }
+                a:hover .store {
+                    display: block;
+                    background-color: $color2;
+                    h4 {
+                        display: inline-block;
+                        
                     }
                 }
             }
@@ -268,6 +308,7 @@ body {
     footer {
         width: 100%;
         background-color: $color4;
+        padding-bottom: $size02;
         .footer-div {
             display: flex;
             justify-content: space-between;
