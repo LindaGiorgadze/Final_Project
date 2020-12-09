@@ -267,6 +267,7 @@ body {
                 position: sticky;
                 top: 455px;
                 width: 300px;
+                min-width: 300px;
                 height: 350px;
                 background-color: $color2;
             }
@@ -277,7 +278,7 @@ body {
                 justify-content: flex-start;
                 a {
                     display: block;
-                    margin: 0 0 50px 50px;
+                    margin: 0 0 50px 32px;
                     width: $size04;
                     height: $size04;
                     border-radius: 20px;
