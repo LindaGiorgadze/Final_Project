@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Final Project</title>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <a class="logo-a" href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+            <div class="customer">
+                <div class="user">
+                    <h3>Linda Giorgadze</h3>
+                    <div class="arrow-details">
+                        <img class="arrow" src="images/arrow-down.svg" alt="arrow">
+                        <div class="user-details">
+                            <h5 class="user-detail"><a href="#">My profile</a></h5>
+                            <h5 class="user-detail"><a href="#">My orders</a></h5>
+                            <h5 class="user-detail"><a href="#">Sign out</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-div">
+                    <img class="cart" src="images/bag.svg" alt="cart">
+                    <img id="plus" class="plus" src="images/plus.svg" alt="plus">
+                    <div class="cart-box">
+                        <div class="product">
+                            <img src="images/dresses/1.jpg" alt="">
+                            <div class="product-details">
+                                <h3 class="product-name">Colorfull dress long</h3>
+                                <p class="product-color">Colorfull</p>
+                                <p class="product-size">M</p>
+                                <p class="quantity">1</p>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <img src="images/dresses/2.jpg" alt="">
+                            <div class="product-details">
+                                <h3 class="product-name">Colorfull dress long</h3>
+                                <p class="product-color">White</p>
+                                <p class="product-size">S</p>
+                                <p class="quantity">1</p>
+                            </div>
+                        </div>
+                        <button class="check-out" onclick="myFunction9()">Check Out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="search-menu">
+            <ul class="main">
+                <li class="main-li women"  onclick="myFunction1()">
+                    <a class="main-li-a" href="#">Women</a>
+                    <div class="detailed-menu">
+                        <ul class="mini-ul block-ul" id="women">
+                            <li class="mini-li"><a class="mini-li-a" href="page2.html">Dresses</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">Trousers</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">T-shirts</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">Shoes</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">Accessories</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <script>
+                    function myFunction1() {
+                      document.getElementById("women").className="block-ul";
+                    }
+                </script>
+                <li class="main-li men" onclick="myFunction2()">
+                    <a class="main-li-a" href="#">Men</a>
+                    <div class="detailed-menu">
+                        <ul class="mini-ul" id="men">
+                            <li class="mini-li"><a class="mini-li-a"" href="">Trousers</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">T-shirts</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">Shoes</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">Accessories</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <script>
+                    function myFunction2() {
+                      document.getElementById("men").className="block-ul";
+                    }
+                </script>
+                <li class="main-li kids" onclick="myFunction3()">
+                    <a class="main-li-a" href="#">Kids</a>
+                    <div class="detailed-menu">
+                        <ul class="mini-ul" id="kids">
+                            <li class="mini-li"><a class="mini-li-a" href="">Dresses</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">T-shirts</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">Trousers</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">Shoes</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">Accessories</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">Toys</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <script>
+                    function myFunction3() {
+                      document.getElementById("kids").className="block-ul";
+                    }
+                </script>
+                <li class="main-li arrivals" onclick="myFunction4()">
+                    <a class="main-li-a" href="#">New Arrivals</a>
+                    <div class="detailed-menu">
+                        <ul class="mini-ul" id="arrivals">
+                            <li class="mini-li"><a class="mini-li-a" href="">Women</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">Men</a></li>
+                            <li class="mini-li"><a class="mini-li-a" href="">Kids</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <script>
+                    function myFunction4() {
+                      document.getElementById("arrivals").className="block-ul";
+                    }
+                </script>
+            </ul>
+            <div class="search">
+                <input type="search" id="search" placeholder="Search">
+                <a class="search-button" href="#">
+                    <img src="images/search.svg" alt="search">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="bottom-container">
+            <div class="detailed">
+                <div class="product-slides">
+                    <img class="slides-product" src="images/dresses/1.jpg" alt="Slide Image">
+                    <img class="slides-product" src="images/dresses/2.jpg" alt="Slide Image">
+                    <img class="slides-product" src="images/dresses/3.jpg" alt="Slide Image">
+                    <button class="slide-button-left-product" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="slide-button-right-product" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+                <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+            
+                    function plusDivs(n) {
+                      showDivs(slideIndex += n);
+                    }
+            
+                    function showDivs(n) {
+                      var i;
+                      var x = document.getElementsByClassName("slides-product");
+                      if (n > x.length) {slideIndex = 1}
+                      if (n < 1) {slideIndex = x.length}
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                          }
+                          x[slideIndex-1].style.display = "block"
+                        }
+                </script>
+                <div class="detailed-option">
+                    <h3 class="product-name">Colorfull Dress Long </h3>
+                    <div class="options">
+                        <div class="option">
+                            <label for="color">Color</label>
+                            <select id="color" name="color">
+                                <option value="red">Red</option>
+                                <option value="white">Canada</option>
+                                <option value="blue">Blue</option>
+                            </select>
+                        </div>
+                        <div class="option">
+                            <label for="size">Size</label>
+                            <select id="size" name="size">
+                                <option value="S">S</option>
+                                <option value="m">M</option>
+                                <option value="l">L</option>
+                            </select>
+                        </div>
+                        <div class="option">
+                            <label for="quantity">Quantity</label>
+                            <select id="quantity" name="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="add-cart" onclick="myFunction9()">Add to Cart</button>
+                    <script>
+                        function myFunction9() {
+                        document.getElementById("plus").className="plus-active";
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-div">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <nav class="footer-nav">
+                <ul>
+                    <li class="footer-li"><a href="index.html">Home</a></li>
+                    <li class="footer-li"><a href="#">About Us</a></li>
+                    <li class="footer-li"><a href="#">Contact Us</a></li>
+                    <li class="footer-li"><a href="#">Terms and Conditions</a></li>
+                    <li class="footer-li"><a href="#">Stores</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <ul class="icons-ul">
+                    <li><a href="#"><img class="icon" src="images/fb.svg" alt="FB"></a></li>
+                    <li><a href="#"><img class="icon" src="images/ig.svg" alt="IG"></a></li>
+                    <li><a href="#"><img class="icon" src="images/twitter.svg" alt="Twitter"></a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
