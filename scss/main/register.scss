@@ -1,0 +1,53 @@
+@import "../modules/variables.scss";
+@import "../modules/classes.scss";
+@import "../modules/mixins.scss";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .register-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $color3;
+        border-radius: 10px;
+        margin-bottom: $size02;
+        padding: 5px 10px;
+        h2 {
+            font-size: $font1;
+            color: $color03;
+            margin: $size09 0;
+        }
+        .register-input {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 5px;
+            .gap {
+                display: inline-block;
+                padding: 5px;
+                label {
+                    color: $color03;
+                }
+                input {
+                    @extend %input1;
+                    color: $color03;
+                }
+                select {
+                    @extend %input1;
+                    color: $color03;
+                }
+            }
+        }
+        .submit {
+            @extend %input1;
+            margin: $size09 0;
+            color: $color03;
+            background-color: transparent;
+        }
+    }
+}

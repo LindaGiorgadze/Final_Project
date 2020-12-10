@@ -112,6 +112,7 @@ body {
                     margin-left: 15px;
                     label {
                         font-size: $font3;
+                        color: $color03;
                     }
                     input {
                         font-size: $font3;
@@ -126,6 +127,10 @@ body {
                     margin-left: 10px;
                     background-color: transparent;
                     @extend %input1;
+                    color: $color03;;
+                    a {
+                        color: $color03;
+                    }
                 }
                 button:hover {
                     font-size: $font4;

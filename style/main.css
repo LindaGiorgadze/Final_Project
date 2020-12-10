@@ -52,7 +52,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart {
+body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -68,7 +68,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart {
+body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -179,7 +179,8 @@ body {
           flex-direction: column;
           margin-left: 15px; }
           body header .top .customer div label {
-            font-size: 15px; }
+            font-size: 15px;
+            color: #404040; }
           body header .top .customer div input {
             font-size: 15px;
             padding: 2px 5px;
@@ -188,7 +189,10 @@ body {
           font-size: 15px;
           padding: 2px 5px;
           margin-left: 10px;
-          background-color: transparent; }
+          background-color: transparent;
+          color: #404040; }
+          body header .top .customer button a {
+            color: #404040; }
         body header .top .customer button:hover {
           font-size: 20px; }
       body header .top .customer:nth-child(4) {
@@ -380,7 +384,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart {
+body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -560,7 +564,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart {
+body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -673,7 +677,6 @@ header .top .customer .cart-div {
         transform-origin: center center;
         transform: scale(1);
         transition: transform 0.5s;
-        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -756,3 +759,57 @@ header .top .customer .cart-div {
     .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar-track {
       background-color: #ffe6ff;
       border-radius: 5px; }
+
+body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
+  max-width: 1290px;
+  margin: 0 auto;
+  padding: 20px 30px; }
+
+body .intro-right, body .intro-left, body .start-button {
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-timing-function: ease-out; }
+
+body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
+  border: solid 2px #ffe6ff;
+  border-radius: 8px; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .container .register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #df9fbf;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 5px 10px; }
+    .container .register-container h2 {
+      font-size: 40px;
+      color: #404040;
+      margin: 15px 0; }
+    .container .register-container .register-input {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 5px; }
+      .container .register-container .register-input .gap {
+        display: inline-block;
+        padding: 5px; }
+        .container .register-container .register-input .gap label {
+          color: #404040; }
+        .container .register-container .register-input .gap input {
+          color: #404040; }
+        .container .register-container .register-input .gap select {
+          color: #404040; }
+    .container .register-container .submit {
+      margin: 15px 0;
+      color: #404040;
+      background-color: transparent; }
