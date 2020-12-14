@@ -34,16 +34,54 @@
         <div class="top">
             <a class="logo-a" href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
             <div class="customer">
-                <div class="email">
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
+                <div class="login">
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    <button class="login-button">Log In</button>
+                    <button class="login-button"><a href="register.html">Register</a></button>
                 </div>
-                <div class="password">
-                    <label for="password">Password</label>
-                    <input type="password" id="password">
+                <div class="user none">
+                    <h3>Linda Giorgadze</h3>
+                    <div class="arrow-details">
+                        <img class="arrow" src="images/arrow-down.svg" alt="arrow">
+                        <div class="user-details">
+                            <h5 class="user-detail"><a href="#">My profile</a></h5>
+                            <h5 class="user-detail"><a href="#">My orders</a></h5>
+                            <h5 class="user-detail"><a href="#">Sign out</a></h5>
+                        </div>
+                    </div>
                 </div>
-                <button>Log In</button>
-                <button><a href="register.html">Register</a></button>
+                <div class="cart-div none">
+                    <img class="cart" src="images/bag.svg" alt="cart">
+                    <img id="plus" class="plus" src="images/plus.svg" alt="plus">
+                    <div class="cart-box">
+                        <div class="product">
+                            <img src="images/dresses/1.jpg" alt="">
+                            <div class="product-details">
+                                <h3 class="product-name">Colorfull dress long</h3>
+                                <p class="product-color">Colorfull</p>
+                                <p class="product-size">M</p>
+                                <p class="quantity">1</p>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <img src="images/dresses/2.jpg" alt="">
+                            <div class="product-details">
+                                <h3 class="product-name">Colorfull dress long</h3>
+                                <p class="product-color">White</p>
+                                <p class="product-size">S</p>
+                                <p class="quantity">1</p>
+                            </div>
+                        </div>
+                        <button class="check-out" onclick="myFunction9()">Check Out</button>
+                    </div>
+                </div>
             </div>
         </div>
         <nav class="search-menu">

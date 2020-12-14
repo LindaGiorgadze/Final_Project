@@ -110,6 +110,9 @@ header {
                     color: $color03;
                     margin: $size02 auto;
                 }
+                .add-cart:hover {
+                    font-size: $font1;
+                }
             }
         }
         .similar-slides {
@@ -222,6 +225,9 @@ header {
                             padding: 2px 4px;
                         }
                     }
+                }
+                .slide-item:last-child {
+                    margin-bottom: 36px;
                 }
                 .slide-item:hover .info {
                     display: flex;

@@ -105,35 +105,144 @@ body {
             }
             .customer {
                 display: flex;
+                justify-content: space-between;
                 align-items: flex-end;
-                div {
+                .login {
+                    display: flex;
+                    align-items: flex-end;
+                    .email, .password {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 15px;
+                        label {
+                            font-size: $font3;
+                            color: $color03;
+                        }
+                        input {
+                            font-size: $font3;
+                            padding: 2px 5px;
+                            width: 102px;
+                            @extend %input1;
+                        }
+                    }
+                    .login-button {
+                        font-size: $font3;
+                        padding: 2px 5px;
+                        margin-left: 10px;
+                        background-color: transparent;
+                        @extend %input1;
+                        color: $color03;;
+                        a {
+                            color: $color03;
+                        }
+                    }
+                    .login-button:hover {
+                        font-size: $font4;
+                    }
+                }
+                .user {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    position: relative;
+                    h3 {
+                        font-size: $font3;
+                        color: $color03;
+                        padding: 5px;
+                        text-decoration: underline;
+                    }
+                    .arrow-details {
+                        .arrow {
+                            width: $size09;
+                            height: $size09;
+                            object-fit: cover;
+                            margin: 0 0 0 10px;
+                        }
+                        .user-details {
+                            display: none;
+                            position: absolute;
+                            top: 30px;
+                            right: 0;
+                            z-index: 100;
+                            padding: 5px 8px;
+                            background-color: $color4;
+                            border-radius: 5px;
+                            width: 100%;
+                            .user-detail {
+                                padding: 5px;
+                                a {
+                                    font-size: $font3;
+                                    color: $color02;
+                                }
+                            }
+                        }
+                    }
+                    .arrow-details:hover .user-details {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                    }
+                }
+                .cart-div {
+                    position: relative;
+                    .cart {
+                        width: $size02;
+                        height: $size02;
+                        object-fit: contain;
+                        margin: 0 0 0 $size09;
+                    }
+                    .cart-box {
+                        display: none;
+                        position: absolute;
+                        top: 40px;
+                        right: 0;
+                        z-index: 100;
+                        background-color: $color2;
+                        border-radius: 5px;
+                        padding: 10px;
+                        .product {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: flex-start;
+                            padding: 10px;
+                            img {
+                                width: $size08;
+                                object-fit: contain;
+                            }
+                            .product-details {
+                                .product-name {
+                                    font-size: $font3;
+                                    min-width: $size010;
+                                    color: $color03;
+                                    padding: 5px;
+                                }
+                                p {
+                                    font-size: $font7;
+                                    color: $color03;
+                                    padding: 5px;
+                                }
+                            }
+                        }
+                        .check-out {
+                            @extend %input1;
+                            font-size: 15px;
+                            padding: 2px 5px;
+                            margin-left: 10px;
+                            background-color: transparent;
+                            color: $color03;
+                        }
+                    }
+                }
+                .cart-div:hover .cart-box {
                     display: flex;
                     flex-direction: column;
                     margin-left: 15px;
-                    label {
-                        font-size: $font3;
-                        color: $color03;
-                    }
-                    input {
-                        font-size: $font3;
-                        padding: 2px 5px;
-                        width: 102px;
-                        @extend %input1;
-                    }
                 }
-                button {
-                    font-size: $font3;
-                    padding: 2px 5px;
-                    margin-left: 10px;
-                    background-color: transparent;
-                    @extend %input1;
-                    color: $color03;;
-                    a {
-                        color: $color03;
-                    }
-                }
-                button:hover {
-                    font-size: $font4;
+                .none {
+                    display: none;
                 }
             }
             .customer:nth-child(4) {

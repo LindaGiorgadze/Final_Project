@@ -52,7 +52,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -68,7 +68,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -173,28 +173,114 @@ body {
         object-fit: contain; }
       body header .top .customer {
         display: flex;
+        justify-content: space-between;
         align-items: flex-end; }
-        body header .top .customer div {
+        body header .top .customer .login {
+          display: flex;
+          align-items: flex-end; }
+          body header .top .customer .login .email, body header .top .customer .login .password {
+            display: flex;
+            flex-direction: column;
+            margin-left: 15px; }
+            body header .top .customer .login .email label, body header .top .customer .login .password label {
+              font-size: 15px;
+              color: #404040; }
+            body header .top .customer .login .email input, body header .top .customer .login .password input {
+              font-size: 15px;
+              padding: 2px 5px;
+              width: 102px; }
+          body header .top .customer .login .login-button {
+            font-size: 15px;
+            padding: 2px 5px;
+            margin-left: 10px;
+            background-color: transparent;
+            color: #404040; }
+            body header .top .customer .login .login-button a {
+              color: #404040; }
+          body header .top .customer .login .login-button:hover {
+            font-size: 20px; }
+        body header .top .customer .user {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          position: relative; }
+          body header .top .customer .user h3 {
+            font-size: 15px;
+            color: #404040;
+            padding: 5px;
+            text-decoration: underline; }
+          body header .top .customer .user .arrow-details .arrow {
+            width: 15px;
+            height: 15px;
+            object-fit: cover;
+            margin: 0 0 0 10px; }
+          body header .top .customer .user .arrow-details .user-details {
+            display: none;
+            position: absolute;
+            top: 30px;
+            right: 0;
+            z-index: 100;
+            padding: 5px 8px;
+            background-color: #993366;
+            border-radius: 5px;
+            width: 100%; }
+            body header .top .customer .user .arrow-details .user-details .user-detail {
+              padding: 5px; }
+              body header .top .customer .user .arrow-details .user-details .user-detail a {
+                font-size: 15px;
+                color: #ff99dd; }
+          body header .top .customer .user .arrow-details:hover .user-details {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end; }
+        body header .top .customer .cart-div {
+          position: relative; }
+          body header .top .customer .cart-div .cart {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+            margin: 0 0 0 15px; }
+          body header .top .customer .cart-div .cart-box {
+            display: none;
+            position: absolute;
+            top: 40px;
+            right: 0;
+            z-index: 100;
+            background-color: white;
+            border-radius: 5px;
+            padding: 10px; }
+            body header .top .customer .cart-div .cart-box .product {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: flex-start;
+              padding: 10px; }
+              body header .top .customer .cart-div .cart-box .product img {
+                width: 60px;
+                object-fit: contain; }
+              body header .top .customer .cart-div .cart-box .product .product-details .product-name {
+                font-size: 15px;
+                min-width: 140px;
+                color: #404040;
+                padding: 5px; }
+              body header .top .customer .cart-div .cart-box .product .product-details p {
+                font-size: 10px;
+                color: #404040;
+                padding: 5px; }
+            body header .top .customer .cart-div .cart-box .check-out {
+              font-size: 15px;
+              padding: 2px 5px;
+              margin-left: 10px;
+              background-color: transparent;
+              color: #404040; }
+        body header .top .customer .cart-div:hover .cart-box {
           display: flex;
           flex-direction: column;
           margin-left: 15px; }
-          body header .top .customer div label {
-            font-size: 15px;
-            color: #404040; }
-          body header .top .customer div input {
-            font-size: 15px;
-            padding: 2px 5px;
-            width: 102px; }
-        body header .top .customer button {
-          font-size: 15px;
-          padding: 2px 5px;
-          margin-left: 10px;
-          background-color: transparent;
-          color: #404040; }
-          body header .top .customer button a {
-            color: #404040; }
-        body header .top .customer button:hover {
-          font-size: 20px; }
+        body header .top .customer .none {
+          display: none; }
       body header .top .customer:nth-child(4) {
         margin-left: 15px; }
     body header .search-menu {
@@ -384,7 +470,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -395,78 +481,6 @@ header .top {
     display: flex;
     justify-content: space-between;
     align-items: flex-end; }
-    header .top .customer .user {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      position: relative; }
-      header .top .customer .user h3 {
-        font-size: 15px;
-        color: #404040;
-        padding: 5px;
-        text-decoration: underline; }
-      header .top .customer .user .arrow-details .arrow {
-        width: 15px;
-        height: 15px;
-        object-fit: cover;
-        margin: 0 0 0 10px; }
-      header .top .customer .user .arrow-details .user-details {
-        display: none;
-        position: absolute;
-        top: 30px;
-        right: 0;
-        z-index: 100;
-        padding: 5px 8px;
-        background-color: #993366;
-        border-radius: 5px;
-        width: 100%; }
-        header .top .customer .user .arrow-details .user-details .user-detail {
-          padding: 5px; }
-          header .top .customer .user .arrow-details .user-details .user-detail a {
-            font-size: 15px;
-            color: #ff99dd; }
-      header .top .customer .user .arrow-details:hover .user-details {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-end; }
-    header .top .customer .cart-div {
-      position: relative; }
-      header .top .customer .cart-div .cart {
-        width: 30px;
-        height: 30px;
-        object-fit: contain;
-        margin: 0 0 0 15px; }
-      header .top .customer .cart-div .cart-box {
-        display: none;
-        position: absolute;
-        top: 40px;
-        right: 0;
-        z-index: 100;
-        background-color: white;
-        border-radius: 5px;
-        padding: 10px; }
-        header .top .customer .cart-div .cart-box .product {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: flex-start;
-          padding: 10px; }
-          header .top .customer .cart-div .cart-box .product img {
-            width: 60px;
-            object-fit: contain; }
-          header .top .customer .cart-div .cart-box .product .product-details .product-name {
-            font-size: 15px;
-            min-width: 140px;
-            color: #404040;
-            padding: 5px; }
-          header .top .customer .cart-div .cart-box .product .product-details p {
-            font-size: 10px;
-            color: #404040;
-            padding: 5px; }
-    header .top .customer .cart-div:hover .cart-box {
-      display: flex; }
 
 .container .bottom-container .clothes-div {
   max-width: 930px;
@@ -564,7 +578,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -648,6 +662,8 @@ header .top .customer .cart-div {
         font-size: 30px;
         color: #404040;
         margin: 30px auto; }
+      .container .bottom-container .detailed .detailed-option .add-cart:hover {
+        font-size: 40px; }
   .container .bottom-container .similar-slides {
     width: 25%;
     height: 490px;
@@ -745,6 +761,8 @@ header .top .customer .cart-div {
             font-style: italic;
             text-decoration: underline;
             padding: 2px 4px; }
+      .container .bottom-container .similar-slides .slides-div .slide-item:last-child {
+        margin-bottom: 36px; }
       .container .bottom-container .similar-slides .slides-div .slide-item:hover .info {
         display: flex;
         flex-flow: column;
@@ -772,7 +790,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer div input, body header .top .customer button, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -812,4 +830,7 @@ body header .top .customer div input, body header .top .customer button, body he
     .container .register-container .submit {
       margin: 15px 0;
       color: #404040;
-      background-color: transparent; }
+      background-color: transparent;
+      font-size: 15px; }
+    .container .register-container .submit:hover {
+      font-size: 20px; }

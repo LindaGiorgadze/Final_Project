@@ -48,6 +48,10 @@
             margin: $size09 0;
             color: $color03;
             background-color: transparent;
+            font-size: $font3;
+        }
+        .submit:hover {
+            font-size: $font4;
         }
     }
 }
