@@ -50,16 +50,8 @@ button {
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -67,7 +59,7 @@ button {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -75,7 +67,7 @@ button {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -83,7 +75,7 @@ button {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -98,16 +90,8 @@ button {
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -115,7 +99,7 @@ button {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -123,7 +107,7 @@ button {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -131,7 +115,7 @@ button {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -162,16 +146,8 @@ body header .top .customer .login .email input, body header .top .customer .logi
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -179,7 +155,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -187,7 +163,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -195,7 +171,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -210,16 +186,8 @@ body header .top .customer .login .email input, body header .top .customer .logi
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -227,7 +195,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -235,7 +203,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -243,7 +211,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -258,16 +226,8 @@ body header .top .customer .login .email input, body header .top .customer .logi
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -275,7 +235,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -283,7 +243,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -291,7 +251,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -306,16 +266,8 @@ body header .top .customer .login .email input, body header .top .customer .logi
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -323,7 +275,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -331,7 +283,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -339,7 +291,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -370,16 +322,8 @@ body header .top .customer .login .email input, body header .top .customer .logi
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -387,7 +331,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -395,7 +339,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -403,7 +347,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -835,16 +779,8 @@ body {
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -852,7 +788,7 @@ body {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -860,7 +796,7 @@ body {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -868,7 +804,7 @@ body {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -883,16 +819,8 @@ body {
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -900,7 +828,7 @@ body {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -908,7 +836,7 @@ body {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -916,7 +844,7 @@ body {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -947,16 +875,8 @@ body header .top .customer .login .email input, body header .top .customer .logi
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -964,7 +884,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -972,7 +892,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -980,7 +900,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -1184,16 +1104,8 @@ header .top {
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -1201,7 +1113,7 @@ header .top {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -1209,7 +1121,7 @@ header .top {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -1217,7 +1129,7 @@ header .top {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -1232,16 +1144,8 @@ header .top {
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -1249,7 +1153,7 @@ header .top {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -1257,7 +1161,7 @@ header .top {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -1265,7 +1169,7 @@ header .top {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -1296,16 +1200,8 @@ body header .top .customer .login .email input, body header .top .customer .logi
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -1313,7 +1209,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -1321,7 +1217,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -1329,7 +1225,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -1557,16 +1453,8 @@ header .top .customer .cart-div {
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -1574,7 +1462,7 @@ header .top .customer .cart-div {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -1582,7 +1470,7 @@ header .top .customer .cart-div {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -1590,7 +1478,7 @@ header .top .customer .cart-div {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -1605,16 +1493,8 @@ header .top .customer .cart-div {
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -1622,7 +1502,7 @@ header .top .customer .cart-div {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -1630,7 +1510,7 @@ header .top .customer .cart-div {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -1638,7 +1518,7 @@ header .top .customer .cart-div {
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -1669,16 +1549,8 @@ body header .top .customer .login .email input, body header .top .customer .logi
 
 @font-face {
   font-family: 'Cormorant Garamond';
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Light.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Light.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Light.svg#CormorantGaramond-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg#CormorantGaramond-Bold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -1686,7 +1558,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg#CormorantGaramond-Medium") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -1694,7 +1566,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
@@ -1702,7 +1574,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
-  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg#CormorantGaramond-Regular") format("svg");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
