@@ -16,9 +16,74 @@ header {
 }
 .container {
     .bottom-container {
-        // .sticky {
-
-        // }
+        .catalogue-sticky {
+            @extend %input1;
+            @include flex (flex, space-around, center);
+            flex-direction: column;
+            .catalogue-option-div {
+                @include flex (flex, space-between, stretch);
+                flex-direction: column;
+                .catalogue-option {
+                    width: 100%;
+                    @include flex (flex, flex-start, flex-start);
+                    margin: 10px auto;
+                    label {
+                        @include font ($fontfamily1, $font4, normal, $color4);
+                        margin: 0 5px;
+                    }
+                    select {
+                        @extend %input1;
+                        margin: 0 5px;
+                        option {
+                            @include font ($fontfamily1, $font4, normal, $color4);
+                        }
+                    }
+                    .price-range {
+                        display: grid;
+                        grid-template-rows: max-content 20px;
+                        width: 100%;
+                        overflow: hidden;
+                        position: relative;
+                        background: linear-gradient(0deg, $color1 50%, transparent 50%);
+                        margin: 0 5px;
+                        #price {
+                            @include font ($fontfamily1, $font4, normal, $color4);
+                            display: inline-block;
+                        }
+                        .sr-only {
+                            position: absolute;
+                            clip-path: inset(50%);
+                        }
+                        input[type='range'] {
+                            &::-webkit-slider-runnable-track, 
+                            &::-webkit-slider-thumb, & {
+                                -webkit-appearance: none
+                            }
+                            grid-column: 1;
+                            grid-row: 2;
+                            margin: 0;
+                            background: none;
+                            color: $color4;
+                            font: inherit;
+                            pointer-events: none;
+                            &::-webkit-slider-runnable-track { @include track }
+                            &::-moz-range-track { @include track }
+                            
+                            &::-webkit-slider-thumb { @include thumb }
+                            &::-moz-range-thumb { @include thumb }
+                        }
+                    }
+                }
+            }
+            .sticky-button {
+                @extend %input1;
+                @include font ($fontfamily1, $font2, normal, $color4);
+                margin: 10px auto;
+            }
+            .sticky-button:hover {
+                @include font ($fontfamily1, $font6, normal, $color4);
+            }
+        }
         .clothes-div {
             max-width: 930px;
             display: flex;
@@ -81,8 +146,7 @@ header {
                         justify-content: space-around;
                         padding: 5px 0;
                         h5 {
-                            font-size: $font3;
-                            color: $color03;
+                            @include font ($fontfamily1, $font3, 600, $color03);
                             background-color: $color1;
                             border-radius: 6px;
                             padding: 2px 4px;
@@ -94,16 +158,15 @@ header {
                         justify-content: flex-end;
                         padding: 5px 0;
                         h4 {
-                            font-size: $font4;
-                            color: $color01;
+                            @include font ($fontfamily2, $font4, bold, $color01);
                             background-color: $color1;
                             border-radius: 6px;
-                            padding: 2px 4px;
+                            padding: 4px 4px;
                         }
                     }
                     .details {
+                        @include font ($fontfamily2, $font4, normal, $color03);
                         margin: 0 auto;
-                        color: $color03;
                         font-style: italic;
                         text-decoration: underline;
                         padding: 2px 4px;

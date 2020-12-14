@@ -1,1 +1,41 @@
 @import './variables.scss';
+
+@mixin font ($font, $size, $weight, $color){
+    font-family: $font;
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+}
+
+@mixin flex ($display, $justify, $align) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin absolute-left ($absolute, $top, $left) {
+    display: $absolute;
+    top: $top;
+    left: $left;
+}
+
+@mixin absolute-right ($absolute, $top, $right) {
+    display: $absolute;
+    top: $top;
+    right: $right;
+}
+
+@mixin track() {
+    width: 100%; 
+    height: 100%;
+    background: none;
+}
+  
+@mixin thumb() {
+    border: none;
+    width: 20px; 
+    height: 20px;
+    border-radius: 0;
+    background: currentcolor;
+    pointer-events: auto;
+}

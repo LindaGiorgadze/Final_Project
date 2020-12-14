@@ -86,28 +86,24 @@ header {
                 background-color: $color2;
                 border-radius: 5px;
                 .product-name {
-                    font-size: $font1;
-                    color: $color03;
+                    @include font ($fontfamily1, $font1, bold, $color03);
                     padding: 0 0 $size09 0;
                 }
                 .options {
                     .option {
                         padding: 0 0 $size09 0;
                         label {
-                            color: $color03;
-                            font-size: $font4;
+                            @include font ($fontfamily1, $font4, 700, $color03);
                         }
                         select {
+                            @include font ($fontfamily1, $font4, normal, $color03);
                             @extend %input1;
-                            color: $color03;
-                            font-size: $font3;
                         }
                     }
                 }
                 .add-cart {
                     @extend %input1;
-                    font-size: $font6;
-                    color: $color03;
+                    @include font ($fontfamily1, $font6, 700, $color03);
                     margin: $size02 auto;
                 }
                 .add-cart:hover {
@@ -123,11 +119,10 @@ header {
             padding: 5px 10px;
             border-radius: 10px;
             h2 {
+                @include font ($fontfamily1, $font6, normal, $color03);
                 text-decoration: underline;
                 text-align: center;
                 margin: 5px auto;
-                font-size: $font6;
-                color: $color03;
             }
             .slides-div {
                 display: flex;
@@ -197,8 +192,7 @@ header {
                             justify-content: space-around;
                             padding: 5px 0;
                             h5 {
-                                font-size: $font3;
-                                color: $color03;
+                                @include font ($fontfamily1, $font3, 600, $color03);
                                 background-color: $color1;
                                 border-radius: 6px;
                                 padding: 2px 4px;
@@ -210,16 +204,15 @@ header {
                             justify-content: flex-end;
                             padding: 5px 0;
                             h4 {
-                                font-size: $font4;
-                                color: $color01;
+                                @include font ($fontfamily2, $font4, bold, $color01);
                                 background-color: $color1;
                                 border-radius: 6px;
                                 padding: 2px 4px;
                             }
                         }
                         .details {
+                            @include font ($fontfamily2, $font4, normal, $color03);
                             margin: 0 auto;
-                            color: $color03;
                             font-style: italic;
                             text-decoration: underline;
                             padding: 2px 4px;

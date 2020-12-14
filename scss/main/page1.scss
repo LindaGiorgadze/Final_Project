@@ -97,8 +97,8 @@ body {
             @extend %container;
             .logo-a {
                 .logo {
-                    width: 80px;
-                    height: 80px;
+                    width: 60px;
+                    height: 60px;
                     height: 100%;
                     object-fit: contain;
                 }
@@ -115,29 +115,30 @@ body {
                         flex-direction: column;
                         margin-left: 15px;
                         label {
-                            font-size: $font3;
-                            color: $color03;
+                            @include font ($fontfamily1, $font3, 600, $color03);
                         }
                         input {
-                            font-size: $font3;
+                            @include font ($fontfamily1, $font3, 500, $color03);
                             padding: 2px 5px;
                             width: 102px;
                             @extend %input1;
                         }
                     }
                     .login-button {
-                        font-size: $font3;
                         padding: 2px 5px;
                         margin-left: 10px;
                         background-color: transparent;
                         @extend %input1;
-                        color: $color03;;
+                        @include font ($fontfamily1, $font3, bold, $color03);
                         a {
-                            color: $color03;
+                            @include font ($fontfamily1, $font3, bold, $color03);
                         }
                     }
                     .login-button:hover {
-                        font-size: $font4;
+                        @include font ($fontfamily1, $font4, bold, $color03);
+                    }
+                    .login-button:hover a {
+                        @include font ($fontfamily1, $font4, bold, $color03);
                     }
                 }
                 .user {
@@ -263,9 +264,7 @@ body {
                     margin: 0 100px 0 0;
                     padding: 5px 5px;
                     a {
-                        font-size: $font2;
-                        color: $color03;
-                        font-weight: bold;
+                        @include font ($fontfamily1, $font2, 700, $color03);
                     }
                     .detailed-menu {
                         position: absolute;
@@ -282,6 +281,9 @@ body {
                             .mini-li{
                                 display: flex;
                                 font-size: $font4;
+                                a {
+                                    @include font ($fontfamily1, $font2, 600, $color03);
+                                }
                             }
                             .mini-li:hover {
                                 border-radius: 6px;
@@ -311,7 +313,7 @@ body {
                 justify-content: space-between;
                 input {
                     @extend %input1;
-                    font-size: $font3;
+                    @include font ($fontfamily1, $font3, 600, $color03);
                     padding: 2px 5px;
                     width: 102px;
                 }
@@ -379,7 +381,7 @@ body {
             position: relative;
             .sticky {
                 position: sticky;
-                top: 455px;
+                top: 258px;
                 width: 300px;
                 min-width: 300px;
                 height: 350px;
@@ -415,9 +417,8 @@ body {
                         border-radius: 20px;
                         display: hidden;
                         h4 {
+                            @include font ($fontfamily1, $font1, bold, $color03);
                             display: none;
-                            font-size: $font1;
-                            color: $color03;
                             margin: 38% 30%;
                         }
                     }
@@ -456,9 +457,8 @@ body {
                     .footer-li {
                         margin-bottom: 5px;
                         padding: 2px 0;
-                        font-size: $font4;
                         a {
-                            color: $color02;
+                            @include font ($fontfamily1, $font4, bold, $color02);
                         }
                     }
                 }
