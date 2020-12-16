@@ -20,7 +20,7 @@
         <div class="top">
             <a class="logo-a" href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
             <div class="customer">
-                <div class="login none">
+                <div class="none" id="login">
                     <div class="email">
                         <label for="email">Email</label>
                         <input type="email" id="email">
@@ -29,21 +29,21 @@
                         <label for="password">Password</label>
                         <input type="password" id="password">
                     </div>
-                    <button>Log In</button>
-                    <button><a href="register.html">Register</a></button>
+                    <button class="login-button" onclick="myFunction1(), myFunction2(), myFunction3()">Log In</button>
+                    <button class="login-button"><a href="register.html">Register</a></button>
                 </div>
-                <div class="user">
+                <div class=" user" id="user">
                     <h3>Linda Giorgadze</h3>
                     <div class="arrow-details">
                         <img class="arrow" src="images/arrow-down.svg" alt="arrow">
                         <div class="user-details">
                             <h5 class="user-detail"><a href="#">My profile</a></h5>
                             <h5 class="user-detail"><a href="#">My orders</a></h5>
-                            <h5 class="user-detail"><a href="#">Sign out</a></h5>
+                            <h5 class="user-detail"><a href="#" onclick="myFunction4(), myFunction5(), myFunction6()">Sign out</a></h5>
                         </div>
                     </div>
                 </div>
-                <div class="cart-div">
+                <div class="cart-div" id="cart-div">
                     <img class="cart" src="images/bag.svg" alt="cart">
                     <img id="plus" class="plus" src="images/plus.svg" alt="plus">
                     <div class="cart-box">
@@ -649,6 +649,25 @@
         </div>
         
     </footer>
-    
+    <script>
+        function myFunction1() {
+          document.getElementById("user").className="user";
+        }
+        function myFunction2() {
+          document.getElementById("cart-div").className="cart-div";
+        }
+        function myFunction3() {
+          document.getElementById("login").className="none";
+        }
+        function myFunction4() {
+          document.getElementById("user").className="none";
+        }
+        function myFunction5() {
+          document.getElementById("cart-div").className="none";
+        }
+        function myFunction6() {
+          document.getElementById("login").className="login";
+        }
+    </script>
 </body>
 </html>

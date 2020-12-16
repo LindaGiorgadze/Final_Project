@@ -53,9 +53,9 @@ body {
         }
     }
     .start-button {
-        font-size: $font1;
+        @include font($fontfamily1, $font1, normal, $color01);
+        cursor: pointer;
         text-transform: uppercase;
-        color: $color01;
         background-color: $color1;
         border: solid 2px;
         border-radius: 20px;
@@ -125,6 +125,7 @@ body {
                         }
                     }
                     .login-button {
+                        cursor:pointer;
                         padding: 2px 5px;
                         margin-left: 10px;
                         background-color: transparent;
@@ -225,11 +226,15 @@ body {
                         }
                         .check-out {
                             @extend %input1;
+                            cursor:pointer;
                             font-size: 15px;
                             padding: 2px 5px;
                             margin-left: 10px;
                             background-color: transparent;
                             color: $color03;
+                        }
+                        .check-out:hover {
+                            transform: scale(1.1);
                         }
                     }
                 }

@@ -43,6 +43,7 @@
             }
         }
         .submit {
+            cursor:pointer;
             @include font ($fontfamily1, $font4, bold, $color03);
             @extend %input1;
             margin: $size09 0;

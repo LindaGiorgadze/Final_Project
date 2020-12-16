@@ -79,6 +79,7 @@ header {
                 @extend %input1;
                 @include font ($fontfamily1, $font2, normal, $color4);
                 margin: 10px auto;
+                cursor:pointer;
             }
             .sticky-button:hover {
                 transform: scale(1.2);

@@ -105,6 +105,7 @@ header {
                     @extend %input1;
                     @include font ($fontfamily1, $font6, 700, $color03);
                     margin: $size02 auto;
+                    cursor: pointer;
                 }
                 .add-cart:hover {
                     transform: scale(1.2);
