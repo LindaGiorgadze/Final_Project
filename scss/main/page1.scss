@@ -91,10 +91,8 @@ body {
         z-index: 90;
         .top {
             border-bottom: solid 2px $color1;
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
             @extend %container;
+            @include flex (flex, space-between, flex-end);
             .logo-a {
                 .logo {
                     width: 60px;
@@ -104,14 +102,11 @@ body {
                 }
             }
             .customer {
-                display: flex;
-                justify-content: space-between;
-                align-items: flex-end;
+                @include flex (flex, space-between, flex-end);
                 .login {
-                    display: flex;
-                    align-items: flex-end;
+                    @include flex (flex, space-between, flex-end);
                     .email, .password {
-                        display: flex;
+                        @include flex (flex, space-between, flex-start);
                         flex-direction: column;
                         margin-left: 15px;
                         label {
@@ -140,10 +135,8 @@ body {
                     }
                 }
                 .user {
-                    display: flex;
+                    @include flex (flex, space-between, center);
                     flex-direction: row;
-                    justify-content: space-between;
-                    align-items: center;
                     position: relative;
                     h3 {
                         font-size: $font3;
@@ -159,10 +152,8 @@ body {
                             margin: 0 0 0 10px;
                         }
                         .user-details {
+                            @include absolute-right (absolute, 20px, 0);
                             display: none;
-                            position: absolute;
-                            top: 20px;
-                            right: 0;
                             z-index: 100;
                             padding: 5px 8px;
                             background-color: $color4;
@@ -177,34 +168,28 @@ body {
                         }
                     }
                     .arrow-details:hover .user-details {
-                        display: flex;
+                        @include flex (flex, space-between, flex-end);
                         flex-direction: column;
-                        justify-content: space-between;
-                        align-items: flex-end;
                     }
                 }
                 .cart-div {
                     position: relative;
                     .cart {
-                        width: $size02;
-                        height: $size02;
+                        width: $size013;
+                        height: $size013;
                         object-fit: contain;
                         margin: 0 0 0 $size09;
                     }
                     .cart-box {
+                        @include absolute-right (absolute, 32px, 0);
                         display: none;
-                        position: absolute;
-                        top: 32px;
-                        right: 0;
                         z-index: 100;
                         background-color: $color2;
                         border-radius: 5px;
                         padding: 10px;
                         .product {
-                            display: flex;
+                            @include flex (flex, space-between, flex-start);
                             flex-direction: row;
-                            justify-content: space-between;
-                            align-items: flex-start;
                             padding: 10px;
                             img {
                                 width: $size08;
@@ -239,7 +224,7 @@ body {
                     }
                 }
                 .cart-div:hover .cart-box {
-                    display: flex;
+                    @include flex (flex, space-between, center);
                     flex-direction: column;
                     margin-left: 15px;
                 }
@@ -253,13 +238,9 @@ body {
         }
         .search-menu {
             @extend %container;
-            display: flex;
-            align-items: flex-end;
-            justify-content: space-between;
+            @include flex (flex, space-between, flex-end);
             .main {
-                display: flex;
-                align-items: flex-end;
-                justify-content: space-between;
+                @include flex (flex, space-between, flex-end);
                 position: relative;
                 .main-li {
                     margin: 0 100px 0 0;
@@ -268,20 +249,16 @@ body {
                         @include font ($fontfamily1, $font2, 700, $color03);
                     }
                     .detailed-menu {
-                        position: absolute;
-                        top: 35px;
-                        left: 0;
+                        @include absolute-left (absolute, 35px, 0);
                         background-color: $color3;
                         width: 100%;
                         border-radius: 10px;
                         display: none;
                         .mini-ul {
-                            display: flex;
-                            justify-content: space-around;
-                            align-items: center;
+                            @include flex (flex, space-around, center);
                             padding: 5px 10px;
                             .mini-li{
-                                display: flex;
+                                display: inline-block;
                                 font-size: $font4;
                                 a {
                                     @include font ($fontfamily1, $font2, 600, $color03);
@@ -310,9 +287,7 @@ body {
                 }
             }
             .search {
-                display: flex;
-                align-items: flex-end;
-                justify-content: space-between;
+                @include flex (flex, space-between, flex-end);
                 input {
                     @extend %input1;
                     @include font ($fontfamily1, $font3, 600, $color03);
@@ -322,8 +297,8 @@ body {
                 .search-button {
                     background-color: transparent;
                     img {
-                        height: $size03;
-                        width: $size03;
+                        height: $size014;
+                        width: $size014;
                         height: 100%;
                         margin-left: 15px;
                         object-fit: contain;
@@ -331,7 +306,7 @@ body {
                 }
                 .search-button:hover {
                     img {
-                        height: $size02;
+                        height: $size013;
                     }
                 }
             }
@@ -353,9 +328,7 @@ body {
                 object-fit: cover;
             }
             .slide-button-left {
-                position: absolute;
-                top: 50%;
-                left: 5px;
+                @include absolute-left (absolute, 50%, 5px);
                 transform: translate(0, -50%);
                 z-index: 9;
                 color: black;
@@ -364,9 +337,7 @@ body {
                 @extend %input1;
             }
             .slide-button-right {
-                position: absolute;
-                top: 50%;
-                right: 5px;
+                @include absolute-right (absolute, 50%, 5px);
                 transform: translate(0, -50%);
                 z-index: 9;
                 color: black;
@@ -377,9 +348,7 @@ body {
         }
         .bottom-container {
             @extend %container;
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
+            @include flex (flex, space-between, flex-start);
             position: relative;
             .sticky {
                 position: sticky;
@@ -390,10 +359,9 @@ body {
                 background-color: $color2;
             }
             .stores-div {
+                @include flex (flex, flex-start, flex-end);
                 max-width: 1000px;
-                display: flex;
                 flex-wrap: wrap;
-                justify-content: flex-start;
                 a {
                     display: block;
                     margin: 0 0 50px 32px;
@@ -410,9 +378,7 @@ body {
                         border-radius: 20px;
                     }
                     .store {
-                        position: absolute;
-                        top: 50%;
-                        left: 50%;
+                        @include absolute-left (absolute, 50%, 50%);
                         transform: translate(-50%, -50%);
                         height: 100%;
                         width: 100%;
@@ -442,11 +408,9 @@ body {
     footer {
         width: 100%;
         background-color: $color4;
-        padding-bottom: $size02;
+        padding-bottom: $size013;
         .footer-div {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
+            @include flex (flex, space-between, flex-start);
             @extend %container;
             .logo {
                 width: 150px;
@@ -468,8 +432,7 @@ body {
             .social-icons {
                 max-width: 200px;
                 .icons-ul {
-                    display: flex;
-                    justify-content: space-between;
+                    @include flex (flex, space-between, flex-end);
                     .icon {
                         width: 30px;
                         height: 30px;

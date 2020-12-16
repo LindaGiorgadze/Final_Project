@@ -2,29 +2,23 @@
 @import "../modules/classes.scss";
 @import "../modules/mixins.scss";
 
-.container {
-    display: flex;
+.register-container {
+    @include flex (flex, space-around, center);
     flex-direction: column;
-    align-items: center;
     .register-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex (flex, space-between, center);
         background-color: $color3;
         border-radius: 10px;
-        margin-bottom: $size02;
+        margin-bottom: $size013;
         padding: 5px 10px;
         h2 {
             @include font ($fontfamily1, $font1, bold, $color03);
             margin: $size09 0;
         }
         .register-input {
+            @include flex (flex, space-around, flex-end);
             margin: 0 auto;
-            display: flex;
             flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
             padding: 5px;
             .gap {
                 display: inline-block;

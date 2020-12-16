@@ -34,9 +34,9 @@ $color02: #ff99dd;
 $color03: #281515;
 
 // Element sizes
-$size01: 1290px;
-$size02: 30px;
-$size03: 20px;
+$size01: 1366px; //Laptop resolution
+$size02: 20px; //Container padding
+$size03: 60px; //Container padding
 $size04: 200px;
 $size05: 260px;
 $size06: 200px;
@@ -46,3 +46,5 @@ $size09: 15px;
 $size010: 140px;
 $size011: 365px;
 $size012: 490px;
+$size013: 30px; //Cart size, search-button click height, product-slides margin, detailed-option padding, add-cart margin, register-container margin.
+$size014: 20px; //Search button height-width.

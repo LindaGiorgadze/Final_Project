@@ -14,13 +14,13 @@
 }
 
 @mixin absolute-left ($absolute, $top, $left) {
-    display: $absolute;
+    position: $absolute;
     top: $top;
     left: $left;
 }
 
 @mixin absolute-right ($absolute, $top, $right) {
-    display: $absolute;
+    position: $absolute;
     top: $top;
     right: $right;
 }

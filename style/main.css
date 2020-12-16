@@ -121,9 +121,9 @@ button {
   font-display: swap; }
 
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
-  max-width: 1290px;
+  max-width: 1366px;
   margin: 0 auto;
-  padding: 20px 30px; }
+  padding: 20px 60px; }
 
 body .intro-right, body .intro-left, body .start-button {
   animation-delay: 0s;
@@ -132,7 +132,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -297,9 +297,9 @@ body header .top .customer .login .email input, body header .top .customer .logi
   font-display: swap; }
 
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
-  max-width: 1290px;
+  max-width: 1366px;
   margin: 0 auto;
-  padding: 20px 30px; }
+  padding: 20px 60px; }
 
 body .intro-right, body .intro-left, body .start-button {
   animation-delay: 0s;
@@ -308,7 +308,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -460,9 +460,12 @@ body {
         align-items: flex-end; }
         body header .top .customer .login {
           display: flex;
+          justify-content: space-between;
           align-items: flex-end; }
           body header .top .customer .login .email, body header .top .customer .login .password {
             display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
             flex-direction: column;
             margin-left: 15px; }
             body header .top .customer .login .email label, body header .top .customer .login .password label {
@@ -495,9 +498,9 @@ body {
             transform: scale(1.2); }
         body header .top .customer .user {
           display: flex;
-          flex-direction: row;
           justify-content: space-between;
           align-items: center;
+          flex-direction: row;
           position: relative; }
           body header .top .customer .user h3 {
             font-size: 15px;
@@ -510,10 +513,10 @@ body {
             object-fit: cover;
             margin: 0 0 0 10px; }
           body header .top .customer .user .arrow-details .user-details {
-            display: none;
             position: absolute;
             top: 20px;
             right: 0;
+            display: none;
             z-index: 100;
             padding: 5px 8px;
             background-color: #993366;
@@ -528,9 +531,9 @@ body {
                 color: #ff99dd; }
           body header .top .customer .user .arrow-details:hover .user-details {
             display: flex;
-            flex-direction: column;
             justify-content: space-between;
-            align-items: flex-end; }
+            align-items: flex-end;
+            flex-direction: column; }
         body header .top .customer .cart-div {
           position: relative; }
           body header .top .customer .cart-div .cart {
@@ -539,19 +542,19 @@ body {
             object-fit: contain;
             margin: 0 0 0 15px; }
           body header .top .customer .cart-div .cart-box {
-            display: none;
             position: absolute;
             top: 32px;
             right: 0;
+            display: none;
             z-index: 100;
             background-color: white;
             border-radius: 5px;
             padding: 10px; }
             body header .top .customer .cart-div .cart-box .product {
               display: flex;
-              flex-direction: row;
               justify-content: space-between;
               align-items: flex-start;
+              flex-direction: row;
               padding: 10px; }
               body header .top .customer .cart-div .cart-box .product img {
                 width: 60px;
@@ -576,6 +579,8 @@ body {
               transform: scale(1.1); }
         body header .top .customer .cart-div:hover .cart-box {
           display: flex;
+          justify-content: space-between;
+          align-items: center;
           flex-direction: column;
           margin-left: 15px; }
         body header .top .customer .none {
@@ -584,12 +589,12 @@ body {
         margin-left: 15px; }
     body header .search-menu {
       display: flex;
-      align-items: flex-end;
-      justify-content: space-between; }
+      justify-content: space-between;
+      align-items: flex-end; }
       body header .search-menu .main {
         display: flex;
-        align-items: flex-end;
         justify-content: space-between;
+        align-items: flex-end;
         position: relative; }
         body header .search-menu .main .main-li {
           margin: 0 100px 0 0;
@@ -613,7 +618,7 @@ body {
               align-items: center;
               padding: 5px 10px; }
               body header .search-menu .main .main-li .detailed-menu .mini-ul .mini-li {
-                display: flex;
+                display: inline-block;
                 font-size: 20px; }
                 body header .search-menu .main .main-li .detailed-menu .mini-ul .mini-li a {
                   font-family: "Cormorant Garamond";
@@ -634,8 +639,8 @@ body {
           display: block; }
       body header .search-menu .search {
         display: flex;
-        align-items: flex-end;
-        justify-content: space-between; }
+        justify-content: space-between;
+        align-items: flex-end; }
         body header .search-menu .search input {
           font-family: "Cormorant Garamond";
           font-size: 15px;
@@ -697,10 +702,11 @@ body {
         height: 350px;
         background-color: white; }
       body .container .bottom-container .stores-div {
-        max-width: 1000px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start; }
+        justify-content: flex-start;
+        align-items: flex-end;
+        max-width: 1000px;
+        flex-wrap: wrap; }
         body .container .bottom-container .stores-div a {
           display: block;
           margin: 0 0 50px 32px;
@@ -763,7 +769,8 @@ body {
         max-width: 200px; }
         body footer .footer-div .social-icons .icons-ul {
           display: flex;
-          justify-content: space-between; }
+          justify-content: space-between;
+          align-items: flex-end; }
           body footer .footer-div .social-icons .icons-ul .icon {
             width: 30px;
             height: 30px;
@@ -852,9 +859,9 @@ body {
   font-display: swap; }
 
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
-  max-width: 1290px;
+  max-width: 1366px;
   margin: 0 auto;
-  padding: 20px 30px; }
+  padding: 20px 60px; }
 
 body .intro-right, body .intro-left, body .start-button {
   animation-delay: 0s;
@@ -863,7 +870,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -906,14 +913,6 @@ body header .top .customer .login .email input, body header .top .customer .logi
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
-
-header .top {
-  display: flex;
-  justify-content: space-between; }
-  header .top .customer {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end; }
 
 .container .bottom-container .catalogue-sticky {
   display: flex;
@@ -1004,11 +1003,11 @@ header .top {
     transform: scale(1.2); }
 
 .container .bottom-container .clothes-div {
-  max-width: 930px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
-  align-items: flex-start; }
+  align-items: flex-start;
+  max-width: 930px;
+  flex-wrap: wrap; }
   .container .bottom-container .clothes-div .cloth-item {
     height: 260px;
     width: 200px;
@@ -1031,8 +1030,9 @@ header .top {
       background-color: rgba(223, 159, 191, 0.589); }
       .container .bottom-container .clothes-div .cloth-item .info .color {
         display: flex;
-        flex-direction: row;
         justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
         padding: 5px 0; }
         .container .bottom-container .clothes-div .cloth-item .info .color .dot1 {
           background-color: black;
@@ -1057,6 +1057,7 @@ header .top {
       .container .bottom-container .clothes-div .cloth-item .info .size {
         display: flex;
         justify-content: space-around;
+        align-items: center;
         padding: 5px 0; }
         .container .bottom-container .clothes-div .cloth-item .info .size h5 {
           font-family: "Cormorant Garamond";
@@ -1068,8 +1069,8 @@ header .top {
           padding: 2px 4px; }
       .container .bottom-container .clothes-div .cloth-item .info .price {
         display: flex;
-        align-items: flex-end;
         justify-content: flex-end;
+        align-items: flex-end;
         padding: 5px 0; }
         .container .bottom-container .clothes-div .cloth-item .info .price h4 {
           font-family: "Playfair Display";
@@ -1090,8 +1091,9 @@ header .top {
         padding: 2px 4px; }
   .container .bottom-container .clothes-div .cloth-item:hover .info {
     display: flex;
-    flex-flow: column;
     justify-content: space-around;
+    align-items: stretch;
+    flex-flow: column;
     border-radius: 5px; }
 
 @font-face {
@@ -1175,9 +1177,9 @@ header .top {
   font-display: swap; }
 
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
-  max-width: 1290px;
+  max-width: 1366px;
   margin: 0 auto;
-  padding: 20px 30px; }
+  padding: 20px 60px; }
 
 body .intro-right, body .intro-left, body .start-button {
   animation-delay: 0s;
@@ -1186,7 +1188,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -1235,10 +1237,10 @@ header .top .customer .cart-div {
   header .top .customer .cart-div .plus {
     display: none; }
   header .top .customer .cart-div .plus-active {
-    display: block;
     position: absolute;
     top: -10px;
     right: -5px;
+    display: block;
     height: 20px;
     width: 20px;
     object-fit: contain;
@@ -1257,192 +1259,195 @@ header .top .customer .cart-div {
     height: 30px;
     width: 30px; } }
 
-.container .bottom-container {
+.container .bottom-container .detailed {
   display: flex;
-  justify-content: space-between; }
-  .container .bottom-container .detailed {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    margin: 0 auto; }
-    .container .bottom-container .detailed .product-slides {
-      position: relative;
-      width: 365px;
-      height: 490px;
-      background-color: rgba(223, 159, 191, 0.589);
-      border-radius: 5px;
-      margin-right: 30px; }
-      .container .bottom-container .detailed .product-slides .slides-product {
-        width: 100%;
-        height: 100%;
-        object-fit: contain; }
-      .container .bottom-container .detailed .product-slides .slide-button-left-product {
-        position: absolute;
-        top: 50%;
-        left: 10px;
-        transform: translate(50%, -50%); }
-      .container .bottom-container .detailed .product-slides .slide-button-right-product {
-        position: absolute;
-        top: 50%;
-        right: 10px;
-        transform: translate(-50%, -50%); }
-    .container .bottom-container .detailed .detailed-option {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
-      padding: 15px 30px;
-      background-color: white;
-      border-radius: 5px; }
-      .container .bottom-container .detailed .detailed-option .product-name {
-        font-family: "Cormorant Garamond";
-        font-size: 40px;
-        font-weight: bold;
-        color: #281515;
-        padding: 0 0 15px 0; }
-      .container .bottom-container .detailed .detailed-option .options .option {
-        padding: 0 0 15px 0; }
-        .container .bottom-container .detailed .detailed-option .options .option label {
-          font-family: "Cormorant Garamond";
-          font-size: 20px;
-          font-weight: 700;
-          color: #281515; }
-        .container .bottom-container .detailed .detailed-option .options .option select {
-          font-family: "Cormorant Garamond";
-          font-size: 20px;
-          font-weight: normal;
-          color: #281515; }
-      .container .bottom-container .detailed .detailed-option .add-cart {
-        font-family: "Cormorant Garamond";
-        font-size: 30px;
-        font-weight: 700;
-        color: #281515;
-        margin: 30px auto;
-        cursor: pointer; }
-      .container .bottom-container .detailed .detailed-option .add-cart:hover {
-        transform: scale(1.2); }
-  .container .bottom-container .similar-slides {
-    width: 25%;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  margin: 0 auto; }
+  .container .bottom-container .detailed .product-slides {
+    position: relative;
+    width: 365px;
     height: 490px;
-    overflow: hidden;
-    background-color: #df9fbf;
-    padding: 5px 10px;
-    border-radius: 10px; }
-    .container .bottom-container .similar-slides h2 {
+    background-color: rgba(223, 159, 191, 0.589);
+    border-radius: 5px;
+    margin-right: 30px; }
+    .container .bottom-container .detailed .product-slides .slides-product {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; }
+    .container .bottom-container .detailed .product-slides .slide-button-left-product {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translate(50%, -50%); }
+    .container .bottom-container .detailed .product-slides .slide-button-right-product {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translate(-50%, -50%); }
+  .container .bottom-container .detailed .detailed-option {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 5px; }
+    .container .bottom-container .detailed .detailed-option .product-name {
+      font-family: "Cormorant Garamond";
+      font-size: 40px;
+      font-weight: bold;
+      color: #281515;
+      padding: 0 0 15px 0; }
+    .container .bottom-container .detailed .detailed-option .options .option {
+      padding: 0 0 15px 0; }
+      .container .bottom-container .detailed .detailed-option .options .option label {
+        font-family: "Cormorant Garamond";
+        font-size: 20px;
+        font-weight: 700;
+        color: #281515; }
+      .container .bottom-container .detailed .detailed-option .options .option select {
+        font-family: "Cormorant Garamond";
+        font-size: 20px;
+        font-weight: normal;
+        color: #281515; }
+    .container .bottom-container .detailed .detailed-option .add-cart {
       font-family: "Cormorant Garamond";
       font-size: 30px;
-      font-weight: normal;
+      font-weight: 700;
       color: #281515;
-      text-decoration: underline;
-      text-align: center;
-      margin: 5px auto; }
-    .container .bottom-container .similar-slides .slides-div {
+      margin: 30px auto;
+      cursor: pointer; }
+    .container .bottom-container .detailed .detailed-option .add-cart:hover {
+      transform: scale(1.2); }
+
+.container .bottom-container .similar-slides {
+  width: 25%;
+  height: 490px;
+  overflow: hidden;
+  background-color: #df9fbf;
+  padding: 5px 10px;
+  border-radius: 10px; }
+  .container .bottom-container .similar-slides h2 {
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    font-weight: normal;
+    color: #281515;
+    text-decoration: underline;
+    text-align: center;
+    margin: 5px auto; }
+  .container .bottom-container .similar-slides .slides-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    height: 100%;
+    border-radius: 10px; }
+    .container .bottom-container .similar-slides .slides-div .slide-item {
       display: flex;
-      flex-direction: column;
-      overflow-y: auto;
-      scroll-snap-type: y mandatory;
-      scroll-behavior: smooth;
-      height: 100%;
-      border-radius: 10px; }
-      .container .bottom-container .similar-slides .slides-div .slide-item {
-        margin: 5px 0;
+      justify-content: center;
+      align-items: center;
+      margin: 5px 0;
+      width: 100%;
+      border-radius: 10px;
+      background: #ffe6ff;
+      transform-origin: center center;
+      transform: scale(1);
+      font-size: 20px; }
+      .container .bottom-container .similar-slides .slides-div .slide-item img {
         width: 100%;
-        border-radius: 10px;
-        background: #ffe6ff;
-        transform-origin: center center;
-        transform: scale(1);
-        transition: transform 0.5s;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 20px; }
-        .container .bottom-container .similar-slides .slides-div .slide-item img {
-          width: 100%;
-          object-fit: contain; }
-        .container .bottom-container .similar-slides .slides-div .slide-item .info {
-          display: none;
-          width: 100%;
-          position: absolute;
-          z-index: 9;
-          left: 0;
-          bottom: 0;
-          padding: 5px 5px;
-          background-color: rgba(223, 159, 191, 0.589); }
-          .container .bottom-container .similar-slides .slides-div .slide-item .info .color {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            padding: 5px 0; }
-            .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot1 {
-              background-color: black;
-              height: 15px;
-              width: 15px;
-              border-radius: 50%; }
-            .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot2 {
-              background-color: white;
-              height: 15px;
-              width: 15px;
-              border-radius: 50%; }
-            .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot3 {
-              background-color: pink;
-              height: 15px;
-              width: 15px;
-              border-radius: 50%; }
-            .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot4 {
-              background-color: red;
-              height: 15px;
-              width: 15px;
-              border-radius: 50%; }
-          .container .bottom-container .similar-slides .slides-div .slide-item .info .size {
-            display: flex;
-            justify-content: space-around;
-            padding: 5px 0; }
-            .container .bottom-container .similar-slides .slides-div .slide-item .info .size h5 {
-              font-family: "Cormorant Garamond";
-              font-size: 15px;
-              font-weight: 600;
-              color: #281515;
-              background-color: #ffe6ff;
-              border-radius: 6px;
-              padding: 2px 4px; }
-          .container .bottom-container .similar-slides .slides-div .slide-item .info .price {
-            display: flex;
-            align-items: flex-end;
-            justify-content: flex-end;
-            padding: 5px 0; }
-            .container .bottom-container .similar-slides .slides-div .slide-item .info .price h4 {
-              font-family: "Playfair Display";
-              font-size: 20px;
-              font-weight: bold;
-              color: #993333;
-              background-color: #ffe6ff;
-              border-radius: 6px;
-              padding: 2px 4px; }
-          .container .bottom-container .similar-slides .slides-div .slide-item .info .details {
+        object-fit: contain; }
+      .container .bottom-container .similar-slides .slides-div .slide-item .info {
+        display: none;
+        width: 100%;
+        position: absolute;
+        z-index: 9;
+        left: 0;
+        bottom: 0;
+        padding: 5px 5px;
+        background-color: rgba(223, 159, 191, 0.589); }
+        .container .bottom-container .similar-slides .slides-div .slide-item .info .color {
+          display: flex;
+          justify-content: space-around;
+          align-items: stretch;
+          flex-direction: row;
+          padding: 5px 0; }
+          .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot1 {
+            background-color: black;
+            height: 15px;
+            width: 15px;
+            border-radius: 50%; }
+          .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot2 {
+            background-color: white;
+            height: 15px;
+            width: 15px;
+            border-radius: 50%; }
+          .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot3 {
+            background-color: pink;
+            height: 15px;
+            width: 15px;
+            border-radius: 50%; }
+          .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot4 {
+            background-color: red;
+            height: 15px;
+            width: 15px;
+            border-radius: 50%; }
+        .container .bottom-container .similar-slides .slides-div .slide-item .info .size {
+          display: flex;
+          justify-content: space-around;
+          align-items: stretch;
+          padding: 5px 0; }
+          .container .bottom-container .similar-slides .slides-div .slide-item .info .size h5 {
+            font-family: "Cormorant Garamond";
+            font-size: 15px;
+            font-weight: 600;
+            color: #281515;
+            background-color: #ffe6ff;
+            border-radius: 6px;
+            padding: 2px 4px; }
+        .container .bottom-container .similar-slides .slides-div .slide-item .info .price {
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          padding: 5px 0; }
+          .container .bottom-container .similar-slides .slides-div .slide-item .info .price h4 {
             font-family: "Playfair Display";
             font-size: 20px;
-            font-weight: normal;
-            color: #281515;
-            margin: 0 auto;
-            font-style: italic;
-            text-decoration: underline;
+            font-weight: bold;
+            color: #993333;
+            background-color: #ffe6ff;
+            border-radius: 6px;
             padding: 2px 4px; }
-      .container .bottom-container .similar-slides .slides-div .slide-item:last-child {
-        margin-bottom: 36px; }
-      .container .bottom-container .similar-slides .slides-div .slide-item:hover .info {
-        display: flex;
-        flex-flow: column;
-        justify-content: space-around;
-        border-radius: 5px; }
-    .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar {
-      width: 10px;
-      height: 10px; }
-    .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar-thumb {
-      background-color: #993366;
-      border-radius: 10px; }
-    .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar-track {
-      background-color: #ffe6ff;
+        .container .bottom-container .similar-slides .slides-div .slide-item .info .details {
+          font-family: "Playfair Display";
+          font-size: 20px;
+          font-weight: normal;
+          color: #281515;
+          margin: 0 auto;
+          font-style: italic;
+          text-decoration: underline;
+          padding: 2px 4px; }
+    .container .bottom-container .similar-slides .slides-div .slide-item:last-child {
+      margin-bottom: 36px; }
+    .container .bottom-container .similar-slides .slides-div .slide-item:hover .info {
+      display: flex;
+      justify-content: space-around;
+      align-items: stretch;
+      flex-flow: column;
       border-radius: 5px; }
+  .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar {
+    width: 10px;
+    height: 10px; }
+  .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar-thumb {
+    background-color: #993366;
+    border-radius: 10px; }
+  .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar-track {
+    background-color: #ffe6ff;
+    border-radius: 5px; }
 
 @font-face {
   font-family: 'Playfair Display';
@@ -1525,9 +1530,9 @@ header .top .customer .cart-div {
   font-display: swap; }
 
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
-  max-width: 1290px;
+  max-width: 1366px;
   margin: 0 auto;
-  padding: 20px 30px; }
+  padding: 20px 60px; }
 
 body .intro-right, body .intro-left, body .start-button {
   animation-delay: 0s;
@@ -1536,7 +1541,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: ease-out; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .container .register-container .register-input .gap input, .container .register-container .register-input .gap select, .container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -1580,51 +1585,51 @@ body header .top .customer .login .email input, body header .top .customer .logi
   font-style: normal;
   font-display: swap; }
 
-.container {
+.register-container {
   display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .container .register-container {
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column; }
+  .register-container .register-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #df9fbf;
     border-radius: 10px;
     margin-bottom: 30px;
     padding: 5px 10px; }
-    .container .register-container h2 {
+    .register-container .register-container h2 {
       font-family: "Cormorant Garamond";
       font-size: 40px;
       font-weight: bold;
       color: #281515;
       margin: 15px 0; }
-    .container .register-container .register-input {
-      margin: 0 auto;
+    .register-container .register-container .register-input {
       display: flex;
-      flex-direction: column;
       justify-content: space-around;
-      align-items: center;
+      align-items: flex-end;
+      margin: 0 auto;
+      flex-direction: column;
       padding: 5px; }
-      .container .register-container .register-input .gap {
+      .register-container .register-container .register-input .gap {
         display: inline-block;
         padding: 5px; }
-        .container .register-container .register-input .gap label {
+        .register-container .register-container .register-input .gap label {
           font-family: "Cormorant Garamond";
           font-size: 20px;
           font-weight: 600;
           color: #281515; }
-        .container .register-container .register-input .gap input {
+        .register-container .register-container .register-input .gap input {
           font-family: "Cormorant Garamond";
           font-size: 15px;
           font-weight: 600;
           color: #281515; }
-        .container .register-container .register-input .gap select {
+        .register-container .register-container .register-input .gap select {
           font-family: "Cormorant Garamond";
           font-size: 15px;
           font-weight: 600;
           color: #281515; }
-    .container .register-container .submit {
+    .register-container .register-container .submit {
       cursor: pointer;
       font-family: "Cormorant Garamond";
       font-size: 20px;
@@ -1632,5 +1637,5 @@ body header .top .customer .login .email input, body header .top .customer .logi
       color: #281515;
       margin: 15px 0;
       background-color: transparent; }
-    .container .register-container .submit:hover {
+    .register-container .register-container .submit:hover {
       transform: scale(1.2); }

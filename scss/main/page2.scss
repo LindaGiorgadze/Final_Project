@@ -3,17 +3,6 @@
 @import "../modules/mixins.scss";
 
 
-header {
-    .top {
-        display: flex;
-        justify-content: space-between;
-        .customer {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-        }
-    }
-}
 .container {
     .bottom-container {
         .catalogue-sticky {
@@ -86,11 +75,9 @@ header {
             }
         }
         .clothes-div {
+            @include flex (flex, space-around, flex-start);
             max-width: 930px;
-            display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: flex-start;
             .cloth-item {
                 height: $size05;
                 width: $size06;
@@ -113,9 +100,8 @@ header {
                     padding: 5px 5px;
                     background-color: $color5;
                     .color {
-                        display: flex;
+                        @include flex (flex, space-around, center);
                         flex-direction: row;
-                        justify-content: space-around;
                         padding: 5px 0;
                         .dot1 {
                             background-color: black;
@@ -143,8 +129,7 @@ header {
                         }
                     }
                     .size {
-                        display: flex;
-                        justify-content: space-around;
+                        @include flex (flex, space-around, center);
                         padding: 5px 0;
                         h5 {
                             @include font ($fontfamily1, $font3, 600, $color03);
@@ -154,9 +139,7 @@ header {
                         }
                     }
                     .price {
-                        display: flex;
-                        align-items: flex-end;
-                        justify-content: flex-end;
+                        @include flex (flex, flex-end, flex-end);
                         padding: 5px 0;
                         h4 {
                             @include font ($fontfamily2, $font4, bold, $color01);
@@ -175,9 +158,8 @@ header {
                 }
             }
             .cloth-item:hover .info {
-                display: flex;
+                @include flex (flex, space-around, stretch);
                 flex-flow: column;
-                justify-content: space-around;
                 border-radius: 5px;
             }
         }
