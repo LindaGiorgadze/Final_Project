@@ -13,14 +13,14 @@
     <meta property="og:image"              content="images/Website.png" />
     <link rel="stylesheet" href="style/main.css">
     <link rel="icon" href="images/logo.png" type="image/png" sizes="16x16">
-    <title>Product | Final Project</title>
+    <title>Final Project</title>
 </head>
 <body>
     <header>
         <div class="top">
             <a class="logo-a" href="index1.html"><img class="logo" src="images/logo.png" alt="logo"></a>
             <div class="customer">
-                <div class="none" id="login">
+                <div class="login" id="login">
                     <div class="email">
                         <label for="email">Email</label>
                         <input type="email" id="email">
@@ -32,7 +32,7 @@
                     <button class="login-button" onclick="myFunction1(), myFunction2(), myFunction3()">Log In</button>
                     <button class="login-button"><a href="register.html">Register</a></button>
                 </div>
-                <div class="user" id="user">
+                <div class=" none" id="user">
                     <h3>Linda Giorgadze</h3>
                     <div class="arrow-details">
                         <img class="arrow" src="images/arrow-down.svg" alt="arrow">
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cart-div" id="cart-div">
+                <div class="none" id="cart-div">
                     <img class="cart" src="images/bag.svg" alt="cart">
                     <img id="plus" class="plus" src="images/plus.svg" alt="plus">
                     <div class="cart-box">
@@ -119,6 +119,7 @@
                     </div>
                 </li>
             </ul>
+            
             <div class="search">
                 <input type="search" id="search" placeholder="Search">
                 <a class="search-button" href="#">
@@ -128,116 +129,175 @@
         </nav>
     </header>
     <div class="container">
+        <div class="slider">
+            <img class="slides" src="images/slider1.png" alt="Slide Image">
+            <img class="slides" src="images/slider2.jpg" alt="Slide Image">
+            <img class="slides" src="images/slider3.jpg" alt="Slide Image">
+            <button class="slide-button-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="slide-button-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+    
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+    
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("slides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+                  }
+                  x[slideIndex-1].style.display = "block"
+                }
+        </script>
         <div class="bottom-container">
-            <div class="detailed">
-                <div class="product-slides">
-                    <img class="slides-product" src="images/dresses/6_1.jpg" alt="Slide Image">
-                    <img class="slides-product" src="images/dresses/6_2.jpg" alt="Slide Image">
-                    <img class="slides-product" src="images/dresses/6_3.jpg" alt="Slide Image">
-                    <button class="slide-button-left-product" onclick="plusDivs(-1)">&#10094;</button>
-                    <button class="slide-button-right-product" onclick="plusDivs(1)">&#10095;</button>
-                </div>
-                <div class="detailed-option">
-                    <h3 class="product-name">Colorfull Dress Long </h3>
-                    <div class="options">
-                        <div class="option">
-                            <label for="color">Color</label>
-                            <select id="color" name="color">
-                                <option value="red">Red</option>
-                                <option value="white">Canada</option>
-                                <option value="blue">Blue</option>
-                            </select>
-                        </div>
-                        <div class="option">
-                            <label for="size">Size</label>
-                            <select id="size" name="size">
-                                <option value="S">S</option>
-                                <option value="m">M</option>
-                                <option value="l">L</option>
-                            </select>
-                        </div>
-                        <div class="option">
-                            <label for="quantity">Quantity</label>
-                            <select id="quantity" name="quantity">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                            </select>
-                        </div>
-                    </div>
-                    <button class="add-cart" onclick="myFunction9()">Add to Cart</button>
-                </div>
+            <div class="sticky">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JxEuGnmT17w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="similar-slides">
-                <h2>You may also like</h2>
-                <div class="slides-div">
-                    <div class="slide-item">
-                        <img class="item-img" src="images/dresses/5.jpg" alt="Dress">
-                        <div class="info">
-                            <div class="color">
-                                <span class="dot1"></span>
-                                <span class="dot2"></span>
-                                <span class="dot3"></span>
-                                <span class="dot4"></span>
-                            </div>
-                            <div class="size">
-                                <h5>XS</h5>
-                                <h5>S</h5>
-                                <h5>M</h5>
-                                <h5>L</h5>
-                            </div>
-                            <div class="price">
-                                <h4>99 GEL</h4>
-                            </div>
-                            <a class="details" href="product.html"> See Details </a>
-                        </div>
+            <div class="stores-div">
+                <a href="#">
+                    <img src="images/Bershka.png" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
                     </div>
-                    <div class="slide-item">
-                        <img class="item-img" src="images/dresses/4.jpg" alt="Dress">
-                        <div class="info">
-                            <div class="color">
-                                <span class="dot1"></span>
-                                <span class="dot2"></span>
-                                <span class="dot3"></span>
-                                <span class="dot4"></span>
-                            </div>
-                            <div class="size">
-                                <h5>XS</h5>
-                                <h5>S</h5>
-                                <h5>M</h5>
-                                <h5>L</h5>
-                            </div>
-                            <div class="price">
-                                <h4>89 GEL</h4>
-                            </div>
-                            <a class="details" href="product.html"> See Details </a>
-                        </div>
+                </a>
+                <a href="#">
+                    <img src="images/calzedonia.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
                     </div>
-                    <div class="slide-item">
-                        <img class="item-img" src="images/dresses/2.jpg" alt="Dress">
-                        <div class="info">
-                            <div class="color">
-                                <span class="dot1"></span>
-                                <span class="dot2"></span>
-                                <span class="dot3"></span>
-                                <span class="dot4"></span>
-                            </div>
-                            <div class="size">
-                                <h5>XS</h5>
-                                <h5>S</h5>
-                                <h5>M</h5>
-                                <h5>L</h5>
-                            </div>
-                            <div class="price">
-                                <h4>199 GEL</h4>
-                            </div>
-                            <a class="details" href="product.html"> See Details </a>
-                        </div>
+                </a>
+                <a href="#">
+                    <img src="images/lacoste.png" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
                     </div>
-                </div>
+                </a>
+                <a href="#">
+                    <img src="images/levis.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/massimo.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/ovs.png" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/pull.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/stradivarius.png" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/timberland.png" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/Bershka.png" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/calzedonia.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/lacoste.png" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/levis.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/massimo.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/ovs.png" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/pull.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/stradivarius.png" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/timberland.png" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/zara.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/Bershka.png" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/calzedonia.jpg" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="images/lacoste.png" alt="store-logo">
+                    <div class="store">
+                        <h4>Visit</h4>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -264,6 +324,9 @@
         
     </footer>
     <script>
+        function myFunction() {
+          document.getElementById("start").className="transform-active";
+        }
         function myFunction1() {
           document.getElementById("user").className="user";
         }
@@ -282,28 +345,6 @@
         function myFunction6() {
           document.getElementById("login").className="login";
         }
-        function myFunction9() {
-          document.getElementById("plus").className="plus-active";
-        }
-    </script>
-    <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-          showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("slides-product");
-          if (n > x.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = x.length}
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-              }
-              x[slideIndex-1].style.display = "block"
-            }
     </script>
 </body>
 </html>
