@@ -163,7 +163,7 @@ body {
                         .user-details {
                             display: none;
                             position: absolute;
-                            top: 30px;
+                            top: 20px;
                             right: 0;
                             z-index: 100;
                             padding: 5px 8px;
@@ -173,8 +173,7 @@ body {
                             .user-detail {
                                 padding: 5px;
                                 a {
-                                    font-size: $font3;
-                                    color: $color02;
+                                    @include font ($fontfamily1, $font3, normal, $color02);
                                 }
                             }
                         }
@@ -197,7 +196,7 @@ body {
                     .cart-box {
                         display: none;
                         position: absolute;
-                        top: 40px;
+                        top: 32px;
                         right: 0;
                         z-index: 100;
                         background-color: $color2;
@@ -268,12 +267,13 @@ body {
                     }
                     .detailed-menu {
                         position: absolute;
-                        bottom: -128%;
+                        top: 35px;
                         left: 0;
                         background-color: $color3;
                         width: 100%;
                         border-radius: 10px;
-                        .block-ul {
+                        display: none;
+                        .mini-ul {
                             display: flex;
                             justify-content: space-around;
                             align-items: center;
@@ -293,9 +293,6 @@ body {
                                 }
                             }
                         }
-                        .mini-ul {
-                            display: none;
-                        }
                     }
                     
                 }
@@ -305,6 +302,9 @@ body {
                     .main-li-a {
                         color: $color1;
                     }
+                }
+                .main-li:hover .detailed-menu{
+                    display: block;
                 }
             }
             .search {

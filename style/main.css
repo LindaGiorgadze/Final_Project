@@ -516,7 +516,7 @@ body {
           body header .top .customer .user .arrow-details .user-details {
             display: none;
             position: absolute;
-            top: 30px;
+            top: 20px;
             right: 0;
             z-index: 100;
             padding: 5px 8px;
@@ -526,7 +526,9 @@ body {
             body header .top .customer .user .arrow-details .user-details .user-detail {
               padding: 5px; }
               body header .top .customer .user .arrow-details .user-details .user-detail a {
+                font-family: "Cormorant Garamond";
                 font-size: 15px;
+                font-weight: normal;
                 color: #ff99dd; }
           body header .top .customer .user .arrow-details:hover .user-details {
             display: flex;
@@ -543,7 +545,7 @@ body {
           body header .top .customer .cart-div .cart-box {
             display: none;
             position: absolute;
-            top: 40px;
+            top: 32px;
             right: 0;
             z-index: 100;
             background-color: white;
@@ -600,36 +602,37 @@ body {
             color: #281515; }
           body header .search-menu .main .main-li .detailed-menu {
             position: absolute;
-            bottom: -128%;
+            top: 35px;
             left: 0;
             background-color: #df9fbf;
             width: 100%;
-            border-radius: 10px; }
-            body header .search-menu .main .main-li .detailed-menu .block-ul {
+            border-radius: 10px;
+            display: none; }
+            body header .search-menu .main .main-li .detailed-menu .mini-ul {
               display: flex;
               justify-content: space-around;
               align-items: center;
               padding: 5px 10px; }
-              body header .search-menu .main .main-li .detailed-menu .block-ul .mini-li {
+              body header .search-menu .main .main-li .detailed-menu .mini-ul .mini-li {
                 display: flex;
                 font-size: 20px; }
-                body header .search-menu .main .main-li .detailed-menu .block-ul .mini-li a {
+                body header .search-menu .main .main-li .detailed-menu .mini-ul .mini-li a {
                   font-family: "Cormorant Garamond";
                   font-size: 25px;
                   font-weight: 600;
                   color: #281515; }
-              body header .search-menu .main .main-li .detailed-menu .block-ul .mini-li:hover {
+              body header .search-menu .main .main-li .detailed-menu .mini-ul .mini-li:hover {
                 border-radius: 6px;
                 background-color: #993366; }
-                body header .search-menu .main .main-li .detailed-menu .block-ul .mini-li:hover .mini-li-a {
+                body header .search-menu .main .main-li .detailed-menu .mini-ul .mini-li:hover .mini-li-a {
                   color: #ffe6ff; }
-            body header .search-menu .main .main-li .detailed-menu .mini-ul {
-              display: none; }
         body header .search-menu .main .main-li:hover {
           border-radius: 6px;
           background-color: #993366; }
           body header .search-menu .main .main-li:hover .main-li-a {
             color: #ffe6ff; }
+        body header .search-menu .main .main-li:hover .detailed-menu {
+          display: block; }
       body header .search-menu .search {
         display: flex;
         align-items: flex-end;
