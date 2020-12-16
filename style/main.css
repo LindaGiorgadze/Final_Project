@@ -488,15 +488,7 @@ body {
               font-weight: bold;
               color: #281515; }
           body header .top .customer .login .login-button:hover {
-            font-family: "Cormorant Garamond";
-            font-size: 20px;
-            font-weight: bold;
-            color: #281515; }
-          body header .top .customer .login .login-button:hover a {
-            font-family: "Cormorant Garamond";
-            font-size: 20px;
-            font-weight: bold;
-            color: #281515; }
+            transform: scale(1.2); }
         body header .top .customer .user {
           display: flex;
           flex-direction: row;
@@ -1001,10 +993,7 @@ header .top {
     color: #993366;
     margin: 10px auto; }
   .container .bottom-container .catalogue-sticky .sticky-button:hover {
-    font-family: "Cormorant Garamond";
-    font-size: 30px;
-    font-weight: normal;
-    color: #993366; }
+    transform: scale(1.2); }
 
 .container .bottom-container .clothes-div {
   max-width: 930px;
@@ -1322,7 +1311,7 @@ header .top .customer .cart-div {
         color: #281515;
         margin: 30px auto; }
       .container .bottom-container .detailed .detailed-option .add-cart:hover {
-        font-size: 40px; }
+        transform: scale(1.2); }
   .container .bottom-container .similar-slides {
     width: 25%;
     height: 490px;
@@ -1634,4 +1623,4 @@ body header .top .customer .login .email input, body header .top .customer .logi
       margin: 15px 0;
       background-color: transparent; }
     .container .register-container .submit:hover {
-      font-size: 25px; }
+      transform: scale(1.2); }

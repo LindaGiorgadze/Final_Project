@@ -135,10 +135,7 @@ body {
                         }
                     }
                     .login-button:hover {
-                        @include font ($fontfamily1, $font4, bold, $color03);
-                    }
-                    .login-button:hover a {
-                        @include font ($fontfamily1, $font4, bold, $color03);
+                        transform: scale(1.2);
                     }
                 }
                 .user {

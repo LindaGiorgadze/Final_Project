@@ -81,7 +81,7 @@ header {
                 margin: 10px auto;
             }
             .sticky-button:hover {
-                @include font ($fontfamily1, $font6, normal, $color4);
+                transform: scale(1.2);
             }
         }
         .clothes-div {
