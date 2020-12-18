@@ -126,11 +126,11 @@ body header .top, body header .search-menu, body .container .bottom-container, b
   padding: 20px 60px; }
 
 body .intro-right, body .intro-left, body .start-button {
-  animation-delay: 0s;
-  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-direction: normal;
-  animation-timing-function: ease-out; }
+  animation-timing-function: linear; }
 
 body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
@@ -302,11 +302,11 @@ body header .top, body header .search-menu, body .container .bottom-container, b
   padding: 20px 60px; }
 
 body .intro-right, body .intro-left, body .start-button {
-  animation-delay: 0s;
-  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-direction: normal;
-  animation-timing-function: ease-out; }
+  animation-timing-function: linear; }
 
 body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
@@ -375,6 +375,12 @@ body {
     right: -5%; }
   100% {
     right: 0; } }
+
+@keyframes intro-right-active {
+  0% {
+    right: 0; }
+  100% {
+    right: -100%; } }
     body .intro-right img {
       height: 100%;
       width: 100%;
@@ -399,6 +405,12 @@ body {
     left: -5%; }
   100% {
     left: 0; } }
+
+@keyframes intro-left-active {
+  0% {
+    left: 0; }
+  100% {
+    left: -100%; } }
     body .intro-left img {
       height: 100%;
       width: 100%;
@@ -419,7 +431,7 @@ body {
     position: fixed;
     top: 50%;
     right: 50%;
-    transform: translate(80%, -50%);
+    transform: translate(75%, -50%);
     z-index: 100;
     animation-name: intro-button; }
 
@@ -432,11 +444,14 @@ body {
     right: 55%; }
   100% {
     right: 60%; } }
+
+@keyframes start-button-active {
+  0% {
+    right: 0; }
+  100% {
+    right: -100%; } }
   body .start-button:hover {
     font-size: 45px; }
-  body .transform-active {
-    transition: visibility 1s ease;
-    visibility: hidden; }
   body header {
     width: 100%;
     background-color: #df9fbf;
@@ -864,11 +879,11 @@ body header .top, body header .search-menu, body .container .bottom-container, b
   padding: 20px 60px; }
 
 body .intro-right, body .intro-left, body .start-button {
-  animation-delay: 0s;
-  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-direction: normal;
-  animation-timing-function: ease-out; }
+  animation-timing-function: linear; }
 
 body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
@@ -1182,11 +1197,11 @@ body header .top, body header .search-menu, body .container .bottom-container, b
   padding: 20px 60px; }
 
 body .intro-right, body .intro-left, body .start-button {
-  animation-delay: 0s;
-  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-direction: normal;
-  animation-timing-function: ease-out; }
+  animation-timing-function: linear; }
 
 body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
@@ -1535,11 +1550,11 @@ body header .top, body header .search-menu, body .container .bottom-container, b
   padding: 20px 60px; }
 
 body .intro-right, body .intro-left, body .start-button {
-  animation-delay: 0s;
-  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-direction: normal;
-  animation-timing-function: ease-out; }
+  animation-timing-function: linear; }
 
 body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;

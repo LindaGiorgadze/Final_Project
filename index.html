@@ -17,13 +17,13 @@
 </head>
 <body>
     <div class="intro" id="start">
-        <div class="intro-right">
+        <div class="intro-right" id="intro-right">
             <img src="./images/banner.jpg" alt="welcome">
         </div>
-        <div class="intro-left">
+        <div class="intro-left" id="intro-left">
             <img src="./images/banner.jpg" alt="welcome">
         </div>
-        <button class="start-button" onclick="myFunction()">Start Shopping</button>
+        <button class="start-button" id="start-button" onclick="myFunction()">Start Shopping</button>
     </div>
     <header>
         <div class="top">
@@ -334,7 +334,10 @@
     </footer>
     <script>
         function myFunction() {
-          document.getElementById("start").className="transform-active";
+          //document.getElementById("start").className="transform-active";
+          document.getElementById("intro-right").style.animation="intro-right-active 3s linear forwards";
+          document.getElementById("intro-left").style.animation="intro-left-active 3s linear forwards";
+          document.getElementById("start-button").style.animation="start-button-active 3s linear forwards";
         }
         function myFunction1() {
           document.getElementById("user").className="user";

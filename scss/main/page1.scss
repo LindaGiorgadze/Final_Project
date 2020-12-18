@@ -22,6 +22,10 @@ body {
             98% { right: -5%;}
             100% {right: 0}
         }
+        @keyframes intro-right-active {
+            0% {right: 0;}
+            100% {right: -100%}
+        }
         img {
             height: 100%;
             width: 100%;
@@ -45,6 +49,10 @@ body {
             98% { left: -5%;}
             100% {left: 0}
         }
+        @keyframes intro-left-active {
+            0% {left: 0;}
+            100% {left: -100%}
+        }
         img {
             height: 100%;
             width: 100%;
@@ -64,7 +72,7 @@ body {
         position: fixed;
         top: 50%;
         right: 50%;
-        transform: translate(80%,-50%);
+        transform: translate(75%,-50%);
         z-index: 100;
         animation-name: intro-button;
         @extend %animation1;
@@ -74,13 +82,13 @@ body {
             98% { right: 55%;}
             100% {right: 60%}
         }
+        @keyframes start-button-active {
+            0% {right: 0;}
+            100% {right: -100%}
+        }
     }
     .start-button:hover {
         font-size: $font5;
-    }
-    .transform-active {
-        transition: visibility 1s ease;
-        visibility: hidden;
     }
     header {
         width: 100%;
