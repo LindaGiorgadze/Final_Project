@@ -1,0 +1,164 @@
+@import "../modules/variables.scss";
+@import "../modules/classes.scss";
+@import "../modules/mixins.scss";
+
+//For 1024 Resolution
+@media (max-width: 1024px){
+    body {
+        .container {
+            .bottom-container {
+                flex-wrap: wrap;
+                .detailed {
+                    margin: unset;
+                    width: 100%;
+                    .product-slides {
+                        height: 470px;
+                    }
+                }
+                .similar-slides {
+                    width: 100%;
+                    margin: 20px auto;
+                    height: unset;
+                    .slides-div {
+                        flex-direction: row;
+                        overflow-x: scroll;
+                        overflow-y: unset;
+                        scroll-snap-type: x mandatory;
+                        .slide-item {
+                            margin: 5px 15px;
+                            img {
+                                width: 325px;
+                                height: 400px;
+                                border-radius: 10px;
+                                object-fit: cover;
+                            }
+                        }
+                        .slide-item:last-child {
+                            margin-bottom: unset;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For 740 Resolution
+@media (max-width: 740px){
+    body {
+        .container{
+            .bottom-container {
+                .detailed {
+                    .product-slides {
+                        height: 420px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For 640 Resolution
+@media (max-width: 640px){
+    body {
+        .container{
+            .bottom-container {
+                .detailed {
+                    .product-slides {
+                        height: 365px;
+                    }
+                    .detailed-option {
+                        .product-name {
+                            font-size: $font6;
+                        }
+                        .add-cart {
+                            font-size: $font2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For 480 Resolution
+@media (max-width: 480px){
+    body {
+        .container{
+            .bottom-container {
+                .detailed {
+                    flex-direction: column;
+                    .product-slides {
+                        height: 400px;
+                        width: 100%;
+                    }
+                    .detailed-option {
+                        margin-top: 15px;
+                        .add-cart {
+                            margin: 5px auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For iPhone 6/7/8 Plus Resolution
+@media (max-width: 414px) {
+    body {
+        .container{
+            .bottom-container {
+                .similar-slides {
+                    .slides-div {
+                        .slide-item {
+                            img {
+                                width: 285px;
+                                height: 400px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For Moto G4 Resolution
+@media (max-width: 360px) {
+    body {
+        .container{
+            .bottom-container {
+                .similar-slides {
+                    .slides-div {
+                        .slide-item {
+                            img {
+                                width: 245px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For iPhone 5/SE Resolution
+@media (max-width: 320px) {
+    body {
+        .container{
+            .bottom-container {
+                .similar-slides {
+                    .slides-div {
+                        .slide-item {
+                            img {
+                                width: 205px;
+                                height: 300px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
