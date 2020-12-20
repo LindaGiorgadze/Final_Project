@@ -41,6 +41,7 @@ header {
 .container {
     .bottom-container{
         @extend %container;
+        padding: $size02 $size03;
         .detailed {
             @include flex (flex, space-between, stretch);
             flex-direction: row;

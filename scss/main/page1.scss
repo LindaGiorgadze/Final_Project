@@ -100,6 +100,7 @@ body {
         .top {
             border-bottom: solid 2px $color1;
             @extend %container;
+            padding: $size02 $size03;
             @include flex (flex, space-between, flex-end);
             .logo-a {
                 .logo {
@@ -288,6 +289,7 @@ body {
         }
         .search-menu {
             @extend %container;
+            padding: $size02 $size03;
             @include flex (flex, space-between, flex-end);
             .main {
                 @include flex (flex, space-between, flex-end);
@@ -502,6 +504,7 @@ body {
         }
         .bottom-container {
             @extend %container;
+            padding: $size02 $size03;
             @include flex (flex, space-between, flex-start);
             position: relative;
             .sticky {
@@ -566,6 +569,7 @@ body {
         .footer-div {
             @include flex (flex, space-between, flex-start);
             @extend %container;
+            padding: $size02 $size03;
             .logo {
                 width: 150px;
                 height: 150px;

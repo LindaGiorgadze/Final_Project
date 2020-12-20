@@ -122,8 +122,7 @@ button {
 
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
   max-width: 1366px;
-  margin: 0 auto;
-  padding: 20px 60px; }
+  margin: 0 auto; }
 
 body .intro-right, body .intro-left, body .start-button {
   animation-delay: 0s;
@@ -298,8 +297,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
   max-width: 1366px;
-  margin: 0 auto;
-  padding: 20px 60px; }
+  margin: 0 auto; }
 
 body .intro-right, body .intro-left, body .start-button {
   animation-delay: 0s;
@@ -461,6 +459,7 @@ body {
     z-index: 90; }
     body header .top {
       border-bottom: solid 2px #ffe6ff;
+      padding: 20px 60px;
       display: flex;
       justify-content: space-between;
       align-items: flex-end; }
@@ -648,6 +647,7 @@ body {
       body header .top .customer:nth-child(4) {
         margin-left: 15px; }
     body header .search-menu {
+      padding: 20px 60px;
       display: flex;
       justify-content: space-between;
       align-items: flex-end; }
@@ -838,6 +838,7 @@ body {
         font-size: 25px;
         background-color: #df9fbf; }
     body .container .bottom-container {
+      padding: 20px 60px;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
@@ -899,7 +900,8 @@ body {
     body footer .footer-div {
       display: flex;
       justify-content: space-between;
-      align-items: flex-start; }
+      align-items: flex-start;
+      padding: 20px 60px; }
       body footer .footer-div .logo {
         width: 150px;
         height: 150px;
@@ -1008,8 +1010,7 @@ body {
 
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
   max-width: 1366px;
-  margin: 0 auto;
-  padding: 20px 60px; }
+  margin: 0 auto; }
 
 body .intro-right, body .intro-left, body .start-button {
   animation-delay: 0s;
@@ -1326,8 +1327,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
   max-width: 1366px;
-  margin: 0 auto;
-  padding: 20px 60px; }
+  margin: 0 auto; }
 
 body .intro-right, body .intro-left, body .start-button {
   animation-delay: 0s;
@@ -1407,195 +1407,196 @@ header .top .customer .cart-div {
     height: 30px;
     width: 30px; } }
 
-.container .bottom-container .detailed {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  flex-direction: row;
-  margin: 0 auto; }
-  .container .bottom-container .detailed .product-slides {
-    position: relative;
-    width: 365px;
-    height: 490px;
-    background-color: rgba(223, 159, 191, 0.589);
-    border-radius: 5px;
-    margin-right: 30px; }
-    .container .bottom-container .detailed .product-slides .slides-product {
-      width: 100%;
-      height: 100%;
-      object-fit: contain; }
-    .container .bottom-container .detailed .product-slides .slide-button-left-product {
-      position: absolute;
-      top: 50%;
-      left: 10px;
-      transform: translate(50%, -50%); }
-    .container .bottom-container .detailed .product-slides .slide-button-right-product {
-      position: absolute;
-      top: 50%;
-      right: 10px;
-      transform: translate(-50%, -50%); }
-  .container .bottom-container .detailed .detailed-option {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 15px 30px;
-    background-color: white;
-    border-radius: 5px; }
-    .container .bottom-container .detailed .detailed-option .product-name {
-      font-family: "Cormorant Garamond";
-      font-size: 40px;
-      font-weight: bold;
-      color: #281515;
-      padding: 0 0 15px 0; }
-    .container .bottom-container .detailed .detailed-option .options .option {
-      padding: 0 0 15px 0; }
-      .container .bottom-container .detailed .detailed-option .options .option label {
-        font-family: "Cormorant Garamond";
-        font-size: 20px;
-        font-weight: 700;
-        color: #281515; }
-      .container .bottom-container .detailed .detailed-option .options .option select {
-        font-family: "Cormorant Garamond";
-        font-size: 20px;
-        font-weight: normal;
-        color: #281515; }
-    .container .bottom-container .detailed .detailed-option .add-cart {
-      font-family: "Cormorant Garamond";
-      font-size: 30px;
-      font-weight: 700;
-      color: #281515;
-      margin: 30px auto;
-      cursor: pointer; }
-    .container .bottom-container .detailed .detailed-option .add-cart:hover {
-      transform: scale(1.2); }
-
-.container .bottom-container .similar-slides {
-  width: 25%;
-  height: 490px;
-  overflow: hidden;
-  background-color: #df9fbf;
-  padding: 5px 10px;
-  border-radius: 10px; }
-  .container .bottom-container .similar-slides h2 {
-    font-family: "Cormorant Garamond";
-    font-size: 30px;
-    font-weight: normal;
-    color: #281515;
-    text-decoration: underline;
-    text-align: center;
-    margin: 5px auto; }
-  .container .bottom-container .similar-slides .slides-div {
+.container .bottom-container {
+  padding: 20px 60px; }
+  .container .bottom-container .detailed {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    flex-direction: column;
-    overflow-y: auto;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    height: 100%;
-    border-radius: 10px; }
-    .container .bottom-container .similar-slides .slides-div .slide-item {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 5px 0;
-      width: 100%;
-      border-radius: 10px;
-      background: #ffe6ff;
-      transform-origin: center center;
-      transform: scale(1);
-      font-size: 20px; }
-      .container .bottom-container .similar-slides .slides-div .slide-item img {
+    flex-direction: row;
+    margin: 0 auto; }
+    .container .bottom-container .detailed .product-slides {
+      position: relative;
+      width: 365px;
+      height: 490px;
+      background-color: rgba(223, 159, 191, 0.589);
+      border-radius: 5px;
+      margin-right: 30px; }
+      .container .bottom-container .detailed .product-slides .slides-product {
         width: 100%;
+        height: 100%;
         object-fit: contain; }
-      .container .bottom-container .similar-slides .slides-div .slide-item .info {
-        display: none;
-        width: 100%;
+      .container .bottom-container .detailed .product-slides .slide-button-left-product {
         position: absolute;
-        z-index: 9;
-        left: 0;
-        bottom: 0;
-        padding: 5px 5px;
-        background-color: rgba(223, 159, 191, 0.589); }
-        .container .bottom-container .similar-slides .slides-div .slide-item .info .color {
-          display: flex;
-          justify-content: space-around;
-          align-items: stretch;
-          flex-direction: row;
-          padding: 5px 0; }
-          .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot1 {
-            background-color: black;
-            height: 15px;
-            width: 15px;
-            border-radius: 50%; }
-          .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot2 {
-            background-color: white;
-            height: 15px;
-            width: 15px;
-            border-radius: 50%; }
-          .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot3 {
-            background-color: pink;
-            height: 15px;
-            width: 15px;
-            border-radius: 50%; }
-          .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot4 {
-            background-color: red;
-            height: 15px;
-            width: 15px;
-            border-radius: 50%; }
-        .container .bottom-container .similar-slides .slides-div .slide-item .info .size {
-          display: flex;
-          justify-content: space-around;
-          align-items: stretch;
-          padding: 5px 0; }
-          .container .bottom-container .similar-slides .slides-div .slide-item .info .size h5 {
-            font-family: "Cormorant Garamond";
-            font-size: 15px;
-            font-weight: 600;
-            color: #281515;
-            background-color: #ffe6ff;
-            border-radius: 6px;
-            padding: 2px 4px; }
-        .container .bottom-container .similar-slides .slides-div .slide-item .info .price {
-          display: flex;
-          justify-content: flex-end;
-          align-items: flex-end;
-          padding: 5px 0; }
-          .container .bottom-container .similar-slides .slides-div .slide-item .info .price h4 {
-            font-family: "Playfair Display";
-            font-size: 20px;
-            font-weight: bold;
-            color: #993333;
-            background-color: #ffe6ff;
-            border-radius: 6px;
-            padding: 2px 4px; }
-        .container .bottom-container .similar-slides .slides-div .slide-item .info .details {
-          font-family: "Playfair Display";
+        top: 50%;
+        left: 10px;
+        transform: translate(50%, -50%); }
+      .container .bottom-container .detailed .product-slides .slide-button-right-product {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translate(-50%, -50%); }
+    .container .bottom-container .detailed .detailed-option {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 15px 30px;
+      background-color: white;
+      border-radius: 5px; }
+      .container .bottom-container .detailed .detailed-option .product-name {
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        font-weight: bold;
+        color: #281515;
+        padding: 0 0 15px 0; }
+      .container .bottom-container .detailed .detailed-option .options .option {
+        padding: 0 0 15px 0; }
+        .container .bottom-container .detailed .detailed-option .options .option label {
+          font-family: "Cormorant Garamond";
+          font-size: 20px;
+          font-weight: 700;
+          color: #281515; }
+        .container .bottom-container .detailed .detailed-option .options .option select {
+          font-family: "Cormorant Garamond";
           font-size: 20px;
           font-weight: normal;
-          color: #281515;
-          margin: 0 auto;
-          font-style: italic;
-          text-decoration: underline;
-          padding: 2px 4px; }
-    .container .bottom-container .similar-slides .slides-div .slide-item:last-child {
-      margin-bottom: 36px; }
-    .container .bottom-container .similar-slides .slides-div .slide-item:hover .info {
-      display: flex;
-      justify-content: space-around;
-      align-items: stretch;
-      flex-flow: column;
-      border-radius: 5px; }
-  .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar {
-    width: 10px;
-    height: 10px; }
-  .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar-thumb {
-    background-color: #993366;
+          color: #281515; }
+      .container .bottom-container .detailed .detailed-option .add-cart {
+        font-family: "Cormorant Garamond";
+        font-size: 30px;
+        font-weight: 700;
+        color: #281515;
+        margin: 30px auto;
+        cursor: pointer; }
+      .container .bottom-container .detailed .detailed-option .add-cart:hover {
+        transform: scale(1.2); }
+  .container .bottom-container .similar-slides {
+    width: 25%;
+    height: 490px;
+    overflow: hidden;
+    background-color: #df9fbf;
+    padding: 5px 10px;
     border-radius: 10px; }
-  .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar-track {
-    background-color: #ffe6ff;
-    border-radius: 5px; }
+    .container .bottom-container .similar-slides h2 {
+      font-family: "Cormorant Garamond";
+      font-size: 30px;
+      font-weight: normal;
+      color: #281515;
+      text-decoration: underline;
+      text-align: center;
+      margin: 5px auto; }
+    .container .bottom-container .similar-slides .slides-div {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      flex-direction: column;
+      overflow-y: auto;
+      scroll-snap-type: y mandatory;
+      scroll-behavior: smooth;
+      height: 100%;
+      border-radius: 10px; }
+      .container .bottom-container .similar-slides .slides-div .slide-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0;
+        width: 100%;
+        border-radius: 10px;
+        background: #ffe6ff;
+        transform-origin: center center;
+        transform: scale(1);
+        font-size: 20px; }
+        .container .bottom-container .similar-slides .slides-div .slide-item img {
+          width: 100%;
+          object-fit: contain; }
+        .container .bottom-container .similar-slides .slides-div .slide-item .info {
+          display: none;
+          width: 100%;
+          position: absolute;
+          z-index: 9;
+          left: 0;
+          bottom: 0;
+          padding: 5px 5px;
+          background-color: rgba(223, 159, 191, 0.589); }
+          .container .bottom-container .similar-slides .slides-div .slide-item .info .color {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            flex-direction: row;
+            padding: 5px 0; }
+            .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot1 {
+              background-color: black;
+              height: 15px;
+              width: 15px;
+              border-radius: 50%; }
+            .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot2 {
+              background-color: white;
+              height: 15px;
+              width: 15px;
+              border-radius: 50%; }
+            .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot3 {
+              background-color: pink;
+              height: 15px;
+              width: 15px;
+              border-radius: 50%; }
+            .container .bottom-container .similar-slides .slides-div .slide-item .info .color .dot4 {
+              background-color: red;
+              height: 15px;
+              width: 15px;
+              border-radius: 50%; }
+          .container .bottom-container .similar-slides .slides-div .slide-item .info .size {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            padding: 5px 0; }
+            .container .bottom-container .similar-slides .slides-div .slide-item .info .size h5 {
+              font-family: "Cormorant Garamond";
+              font-size: 15px;
+              font-weight: 600;
+              color: #281515;
+              background-color: #ffe6ff;
+              border-radius: 6px;
+              padding: 2px 4px; }
+          .container .bottom-container .similar-slides .slides-div .slide-item .info .price {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding: 5px 0; }
+            .container .bottom-container .similar-slides .slides-div .slide-item .info .price h4 {
+              font-family: "Playfair Display";
+              font-size: 20px;
+              font-weight: bold;
+              color: #993333;
+              background-color: #ffe6ff;
+              border-radius: 6px;
+              padding: 2px 4px; }
+          .container .bottom-container .similar-slides .slides-div .slide-item .info .details {
+            font-family: "Playfair Display";
+            font-size: 20px;
+            font-weight: normal;
+            color: #281515;
+            margin: 0 auto;
+            font-style: italic;
+            text-decoration: underline;
+            padding: 2px 4px; }
+      .container .bottom-container .similar-slides .slides-div .slide-item:last-child {
+        margin-bottom: 36px; }
+      .container .bottom-container .similar-slides .slides-div .slide-item:hover .info {
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        flex-flow: column;
+        border-radius: 5px; }
+    .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar {
+      width: 10px;
+      height: 10px; }
+    .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar-thumb {
+      background-color: #993366;
+      border-radius: 10px; }
+    .container .bottom-container .similar-slides .slides-div::-webkit-scrollbar-track {
+      background-color: #ffe6ff;
+      border-radius: 5px; }
 
 @font-face {
   font-family: 'Playfair Display';
@@ -1679,8 +1680,7 @@ header .top .customer .cart-div {
 
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
   max-width: 1366px;
-  margin: 0 auto;
-  padding: 20px 60px; }
+  margin: 0 auto; }
 
 body .intro-right, body .intro-left, body .start-button {
   animation-delay: 0s;
@@ -1870,8 +1870,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
   max-width: 1366px;
-  margin: 0 auto;
-  padding: 20px 60px; }
+  margin: 0 auto; }
 
 body .intro-right, body .intro-left, body .start-button {
   animation-delay: 0s;
@@ -2082,6 +2081,10 @@ body header .top .customer .login .email input, body header .top .customer .logi
           display: inline; } }
 
 @media (max-width: 360px) {
+  body header .top {
+    padding: 12px 30px; }
+  body header .search-menu {
+    padding: 12px 30px; }
   body .container .bottom-container .stores-div {
     display: flex;
     justify-content: space-between;
@@ -2191,8 +2194,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
 
 body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
   max-width: 1366px;
-  margin: 0 auto;
-  padding: 20px 60px; }
+  margin: 0 auto; }
 
 body .intro-right, body .intro-left, body .start-button {
   animation-delay: 0s;

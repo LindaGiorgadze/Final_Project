@@ -365,6 +365,14 @@
 //For Moto G4 Resolution
 @media (max-width: 360px) {
     body {
+        header {
+            .top {
+                padding: 12px 30px;
+            }
+            .search-menu {
+                padding: 12px 30px;
+            }
+        }
         .container{
             .bottom-container {
                 .stores-div {
