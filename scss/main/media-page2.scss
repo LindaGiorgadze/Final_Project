@@ -1,0 +1,124 @@
+@import "../modules/variables.scss";
+@import "../modules/classes.scss";
+@import "../modules/mixins.scss";
+
+
+//For 900 Resolution
+@media (max-width: 900px){
+    body {
+        .container {
+            .bottom-container {
+                .catalogue-sticky {
+                    min-width: 255px;
+                }
+                .clothes-div {
+                    justify-content: space-between;
+                    .cloth-item {
+                        margin: 0 20px 60px 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For 795 Resolution
+@media (max-width: 795px){
+    body {
+        .container{
+            .bottom-container{
+                .clothes-div {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+//For 640 Resolution
+@media (max-width: 640px){
+    body {
+        .container{
+            .bottom-container {
+                .catalogue-sticky {
+                    position: unset;
+                    height: unset;
+                    .catalogue-option-div {
+                        flex-direction: row;
+                        .catalogue-option {
+                            flex-direction: column;
+                        }
+                    }
+                }
+                .clothes-div {
+                    margin-top: $size02;
+                }
+            }
+        }
+    }
+}
+
+//For 480 Resolution
+@media (max-width: 480px){
+    body {
+        .container{
+            .bottom-container {
+                .catalogue-sticky {
+                    .catalogue-option-div {
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        .catalogue-option {
+                            flex-basis: 20%;
+                        }
+                    }
+                }
+                .clothes-div {
+                    .cloth-item {
+                        height: 435px;
+                        width: 100%;
+                        margin: 0 auto 60px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For Moto G4 Resolution
+@media (max-width: 360px) {
+    body {
+        .container{
+            .bottom-container {
+                .catalogue-sticky {
+                    .catalogue-option-div {
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        .catalogue-option {
+                            flex-basis: 20%;
+                            flex-direction: unset;
+                        }
+                    }
+                }
+                .clothes-div {
+                    .cloth-item {
+                        height: 390px;
+                        margin: 0 auto 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For iPhone 5/SE Resolution
+@media (max-width: 320px) {
+    body {
+        .container{
+            .bottom-container {
+                .catalogue-sticky {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
