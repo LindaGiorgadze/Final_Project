@@ -1,0 +1,44 @@
+@import "../modules/variables.scss";
+@import "../modules/classes.scss";
+@import "../modules/mixins.scss";
+
+
+//For Moto G4 Resolution
+@media (max-width: 360px) {
+    body {
+        .container{
+            .register-container {
+                .register-input {
+                    .gap {
+                        input {
+                            width: 135px;
+                        }
+                        .checkbox {
+                            width: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For iPhone 5/SE Resolution
+@media (max-width: 320px) {
+    body {
+        .container{
+            .register-container {
+                h2 {
+                    font-size: $font6;
+                }
+                .register-input {
+                    .gap {
+                        input {
+                            width: 120px;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}

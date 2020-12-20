@@ -2498,3 +2498,150 @@ body header .top .customer .login .email input, body header .top .customer .logi
   body .container .bottom-container .similar-slides .slides-div .slide-item img {
     width: 205px;
     height: 300px; } }
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("../fonts/Playfair/PlayfairDisplay-Regular.eot");
+  src: url("../fonts/Playfair/PlayfairDisplay-Regular.eot") format("embedded-opentype"), url("../fonts/Playfair/PlayfairDisplay-Regular.woff2") format("woff2"), url("../fonts/Playfair/PlayfairDisplay-Regular.woff") format("woff"), url("../fonts/Playfair/PlayfairDisplay-Regular.ttf") format("truetype"), url("../fonts/Playfair/PlayfairDisplay-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("../fonts/Playfair/PlayfairDisplay-Regular.eot");
+  src: url("../fonts/Playfair/PlayfairDisplay-Regular.eot") format("embedded-opentype"), url("../fonts/Playfair/PlayfairDisplay-Regular.woff2") format("woff2"), url("../fonts/Playfair/PlayfairDisplay-Regular.woff") format("woff"), url("../fonts/Playfair/PlayfairDisplay-Regular.ttf") format("truetype"), url("../fonts/Playfair/PlayfairDisplay-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+body header .top, body header .search-menu, body .container .bottom-container, body footer .footer-div, .container .bottom-container {
+  max-width: 1366px;
+  margin: 0 auto; }
+
+body .intro-right, body .intro-left, body .start-button {
+  animation-delay: 0s;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-timing-function: linear; }
+
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
+  border: solid 2px #ffe6ff;
+  border-radius: 8px; }
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("../fonts/Playfair/PlayfairDisplay-Regular.eot");
+  src: url("../fonts/Playfair/PlayfairDisplay-Regular.eot") format("embedded-opentype"), url("../fonts/Playfair/PlayfairDisplay-Regular.woff2") format("woff2"), url("../fonts/Playfair/PlayfairDisplay-Regular.woff") format("woff"), url("../fonts/Playfair/PlayfairDisplay-Regular.ttf") format("truetype"), url("../fonts/Playfair/PlayfairDisplay-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot");
+  src: url("../fonts/Cormorant/CormorantGaramond-Bold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Bold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Bold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot");
+  src: url("../fonts/Cormorant/CormorantGaramond-Medium.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Medium.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot");
+  src: url("../fonts/Cormorant/CormorantGaramond-SemiBold.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-SemiBold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot");
+  src: url("../fonts/Cormorant/CormorantGaramond-Regular.eot") format("embedded-opentype"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff2") format("woff2"), url("../fonts/Cormorant/CormorantGaramond-Regular.woff") format("woff"), url("../fonts/Cormorant/CormorantGaramond-Regular.ttf") format("truetype"), url("../fonts/Cormorant/CormorantGaramond-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@media (max-width: 360px) {
+  body .container .register-container .register-input .gap input {
+    width: 135px; }
+  body .container .register-container .register-input .gap .checkbox {
+    width: 13px; } }
+
+@media (max-width: 320px) {
+  body .container .register-container h2 {
+    font-size: 30px; }
+  body .container .register-container .register-input .gap input {
+    width: 120px; } }
