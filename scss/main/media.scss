@@ -1,0 +1,364 @@
+@import "../modules/variables.scss";
+@import "../modules/classes.scss";
+@import "../modules/mixins.scss";
+
+//For 1024 Resolution
+@media (max-width: 1024px){
+    body {
+        .container {
+            margin-top: 192px;
+            .bottom-container {
+                .stores-div {
+                    a {
+                        width: $size1;
+                        height: $size1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For 995 Resolution
+@media (max-width: 995px){
+    body {
+        header {
+            .search-menu {
+                padding: 15px 50px;
+            }
+        }
+        .container {
+            margin-top: 192px;
+            .bottom-container {
+                .stores-div {
+                    a {
+                        width: 128px;
+                        height: 128px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For 900 Resolution
+@media (max-width: 900px){
+    body {
+        header {   
+            .search-menu {
+                .main {
+                    .main-li {
+                        margin: 0 55px 0 0;
+                        
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+//For 795 Resolution
+@media (max-width: 795px){
+    body {
+        header {   
+            .search-menu {
+                .main {
+                    .main-li {
+                        a {
+                            font-size: 20px;
+                        }
+                        .detailed-menu {
+                            .mini-ul {
+                                .mini-li {
+                                    a{
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+        .container{
+            .bottom-container{
+                .sticky {
+                    min-width: 230px;
+                    height: 285px;
+                }
+            }
+        }
+    }
+}
+
+//For 740 Resolution
+@media (max-width: 740px){
+    body {
+        header {
+            .top {
+                padding: 15px 30px;
+            }
+            .search-menu {
+                .main {
+                    .main-li {
+                        margin: 0 42px 0 0;
+                        a {
+                            font-size: 16px;
+                        }
+                        .detailed-menu {
+                            .mini-ul {
+                                .mini-li {
+                                    a{
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+        .container{
+            .slider {
+                .slides {
+                    height: 160px;
+                }
+            }
+        }
+    }
+}
+
+//For 640 Resolution
+@media (max-width: 640px){
+    body {
+        header {
+            .top {
+                padding: 15px 30px;
+            }
+            .search-menu {
+                padding: 15px 30px;
+                .main {
+                    display: none;
+                }
+                .burger {
+                    display: inline-flex;
+                }
+            }
+        }
+        .container{
+            margin-top: 165px;
+            .slider {
+                .slides {
+                    height: 160px;
+                }
+            }
+            .bottom-container {
+                @include flex(flex, space-between, center);
+                flex-direction: column;
+                .sticky {
+                    position: unset;
+                    width: 100%;
+                    height: 260px;
+                }
+                .stores-div {
+                    margin-top: $size02;
+                }
+            }
+        }
+        footer {
+            .footer-div {
+                padding: 15px 30px;
+                .logo {
+                    width: 95px;
+                    height: 95px;
+                }
+            }
+        }
+    }
+}
+
+//For 480 Resolution
+@media (max-width: 480px){
+    body {
+        header {
+            .top {
+                .customer {
+                    .login {
+                        .email, .password {
+                            margin-left: 4px;
+                            input {
+                                width: 80px;
+                            }
+                        }
+                        .login-button {
+                            margin-left: 4px;
+                        }
+                    }
+                }
+            }
+            .search-menu {
+                .burger {
+                    width: 40px;
+                    .burger-menu {
+                        width: 395px;
+                        .burger-main-ul {
+                            .burger-main-li {
+                                a {
+                                    font-size: $font6;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .container{
+            .slider {
+                .slide-button-left {
+                    left: 15px;
+                }
+                .slide-button-right {
+                    right: 15px;
+                }
+            }
+            .bottom-container {
+                padding: 15px 30px;
+                .sticky {
+                    width: 100%;
+                    height: 200px;
+                }
+                .stores-div {
+                    a {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+        footer {
+            .footer-div {
+                .logo {
+                    width: 85px;
+                    height: 85px;
+                }
+                .social-icons {
+                    .icons-ul {
+                        flex-direction: column;
+                        li {
+                            margin-bottom: 6px;
+                            a {
+                                img {
+                                    max-width: 30px;
+                                    display: inline;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//For iPhone 6/7/8 Plus Resolution
+@media (max-width: 414px) {
+    body {
+        .start-button {
+            font-size: $font2;
+        }
+        header {
+            .top {
+                .customer {
+                    .login {
+                        .email, .password {
+                            display: none;
+                        }
+                        .responsive-login {
+                            display: inline;
+                        }
+                        .laptop-login {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .search-menu {
+                .burger {
+                    width: 40px;
+                    .burger-menu {
+                        width: 395px;
+                        .burger-main-ul {
+                            .burger-main-li {
+                                a {
+                                    font-size: $font6;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .container{
+            .slider {
+                .slide-button-left {
+                    left: 17px;
+                }
+                .slide-button-right {
+                    right: 17px;
+                }
+            }
+            .bottom-container {
+                .sticky {
+                    width: 100%;
+                    height: 180px;
+                }
+                .stores-div {
+                    @include flex (flex, space-between, center);
+                    a {
+                        margin-left: unset;
+                        .store {
+                            h4 {
+                                font-size: $font2;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer {
+            .footer-div {
+                flex-wrap: wrap;
+                .logo {
+                    width: 85px;
+                    height: 85px;
+                }
+                .footer-nav {
+                    ul {
+                        @include flex (flex, space-between, flex-end);
+                        flex-direction: column;
+                    }
+                }
+                .social-icons {
+                    width: 100%;
+                    margin: 30px auto 0;
+                    align-self: flex-end;
+                    .icons-ul {
+                        flex-direction: row;
+                        li {
+                            a {
+                                img {
+                                    max-width: 30px;
+                                    display: inline;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

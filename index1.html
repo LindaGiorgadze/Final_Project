@@ -29,7 +29,19 @@
                         <label for="password">Password</label>
                         <input type="password" id="password">
                     </div>
-                    <button class="login-button" onclick="myFunction1(), myFunction2(), myFunction3()">Log In</button>
+                    <button class="responsive-login login-button" onclick="fixedLogin()">Log In</button>
+                    <div class="fixed-login" id="fixed-login">
+                        <div class="responsive-email">
+                            <label for="email">Email</label>
+                            <input type="email" id="email2">
+                        </div>
+                        <div class="responsive-password">
+                            <label for="password">Password</label>
+                            <input type="password" id="password2">
+                        </div>
+                        <button class="login-submit" onclick="myFunction1(), myFunction2(), myFunction3()">Submit</button>
+                    </div>
+                    <button class="login-button laptop-login" onclick="myFunction1(), myFunction2(), myFunction3()">Log In</button>
                     <button class="login-button"><a href="register.html">Register</a></button>
                 </div>
                 <div class=" none" id="user">
@@ -39,7 +51,7 @@
                         <div class="user-details">
                             <h5 class="user-detail"><a href="#">My profile</a></h5>
                             <h5 class="user-detail"><a href="#">My orders</a></h5>
-                            <h5 class="user-detail"><a href="#" onclick="myFunction4(), myFunction5(), myFunction6()">Sign out</a></h5>
+                            <h5 class="user-detail"><a href="#" onclick="myFunction4(), myFunction5(), myFunction6(), myFunction7()">Sign out</a></h5>
                         </div>
                     </div>
                 </div>
@@ -119,7 +131,57 @@
                     </div>
                 </li>
             </ul>
-            
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="burger-menu">
+                    <ul class="burger-main-ul">
+                        <li class="burger-main-li"><a href="#">Women</a>
+                            <div class="burger-detailed-menu">
+                                <ul class="burger-mini-ul">
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Dresses</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Trousers</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">T-shirts</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Shoes</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Accessories</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="burger-main-li"><a href="#">Men</a>
+                            <div class="burger-detailed-menu">
+                                <ul class="burger-mini-ul">
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Trousers</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">T-shirts</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Shoes</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Accessories</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="burger-main-li"><a href="#">Kids</a>
+                            <div class="burger-detailed-menu">
+                                <ul class="burger-mini-ul">
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Dresses</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Trousers</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">T-shirts</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Shoes</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Accessories</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Toys</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="burger-main-li"><a href="#">New Arrivals</a>
+                            <div class="burger-detailed-menu">
+                                <ul class="burger-mini-ul">
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Women</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Men</a></li>
+                                    <li class="burger-mini-li"><a class="mini-li-a" href="catalogue.html">Kids</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="search">
                 <input type="search" id="search" placeholder="Search">
                 <a class="search-button" href="#">
@@ -344,6 +406,12 @@
         }
         function myFunction6() {
           document.getElementById("login").className="login";
+        }
+        function myFunction7() {
+          document.getElementById("fixed-login").className="none";
+        }
+        function fixedLogin() {
+            document.getElementById("fixed-login").className="visible"
         }
     </script>
 </body>

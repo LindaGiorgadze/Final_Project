@@ -6,9 +6,10 @@ $color2: white;
 $color3: #df9fbf;
 $color4: #993366;
 $color5:  rgba(223, 159, 191, 0.589);
+$color6: #ffe6ffeb;
 
 // Animation
-$animation-delay1: 1s;
+$animation-delay1: 0s;
 $animation-duration1: 2.5s;
 $animation-fill-mode1: forwards;
 $animation-direction1: normal;
@@ -35,7 +36,7 @@ $color03: #281515;
 
 // Element sizes
 $size01: 1366px; //Laptop resolution
-$size02: 20px; //Container padding
+$size02: 20px; //Container padding, burger-menu padding
 $size03: 60px; //Container padding
 $size04: 200px;
 $size05: 260px;
@@ -48,3 +49,6 @@ $size011: 365px;
 $size012: 490px;
 $size013: 30px; //Cart size, search-button click height, product-slides margin, detailed-option padding, add-cart margin, register-container margin.
 $size014: 20px; //Search button height-width.
+
+//Media element sizes
+$size1: 160px; //Stores sizes
