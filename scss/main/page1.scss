@@ -337,16 +337,15 @@ body {
                 }
             }
             .burger {
-                position: relative;
                 display: none;
                 margin: 2px;
                 width: 45px;
                 height: 30px;
                 position: relative;
-                -webkit-transform: rotate(0deg);
-                -moz-transform: rotate(0deg);
-                -o-transform: rotate(0deg);
-                transform: rotate(0deg);
+                // -webkit-transform: rotate(0deg);
+                // -moz-transform: rotate(0deg);
+                // -o-transform: rotate(0deg);
+                // transform: rotate(0deg);
                 -webkit-transition: .5s ease-in-out;
                 -moz-transition: .5s ease-in-out;
                 -o-transition: .5s ease-in-out;
@@ -372,10 +371,11 @@ body {
                 }
                 .burger-menu {
                     display: none;
-                    position: absolute;
-                    top: 42px;
-                    left: 0;
-                    width: 575px;
+                    position: fixed;
+                    top: 148px;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                    width: 90%;
                     background-color: $color6;
                     border-radius: 10px;
                     padding: $size02;
@@ -513,12 +513,12 @@ body {
                 background-color: $color2;
             }
             .stores-div {
-                @include flex (flex, flex-start, flex-end);
-                max-width: 1000px;
+                @include flex (flex, space-around, center);
+                width: 100%;
                 flex-wrap: wrap;
                 a {
                     display: block;
-                    margin: 0 0 50px 32px;
+                    margin: 0 15px 50px 15px;
                     width: $size04;
                     height: $size04;
                     border-radius: 20px;
