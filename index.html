@@ -51,7 +51,7 @@
                         <button class="login-submit" onclick="myFunction1(), myFunction2(), myFunction3()">Submit</button>
                     </div>
                     <button class="login-button laptop-login" onclick="myFunction1(), myFunction2(), myFunction3()">Log In</button>
-                    <button class="login-button"><a href="register.html">Register</a></button>
+                    <button class="login-button" id="myButton">Register</a></button>
                 </div>
                 <div class=" none" id="user">
                     <h3>Linda Giorgadze</h3>
@@ -422,8 +422,10 @@
           document.getElementById("fixed-login").className="none";
         }
         function fixedLogin() {
-            document.getElementById("fixed-login").className="visible"
+            document.getElementById("fixed-login").className="visible";
         }
+        document.getElementById("myButton").onclick = function () {
+        location.href = "https://lindagiorgadze.github.io/Final_Project/register.html";}
     </script>
 </body>
 </html>
