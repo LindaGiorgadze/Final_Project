@@ -204,7 +204,10 @@ body {
                         }
                         .user-details {
                             @include absolute-right (absolute, 20px, 0);
-                            display: none;
+                            @include flex (flex, space-between, flex-end);
+                            flex-direction: column;
+                            visibility: hidden;
+                            transition: visibility 2s;
                             z-index: 100;
                             padding: 5px 8px;
                             background-color: $color4;
@@ -219,8 +222,7 @@ body {
                         }
                     }
                     .arrow-details:hover .user-details {
-                        @include flex (flex, space-between, flex-end);
-                        flex-direction: column;
+                        visibility: visible;
                     }
                 }
                 .cart-div {
@@ -233,7 +235,11 @@ body {
                     }
                     .cart-box {
                         @include absolute-right (absolute, 32px, 0);
-                        display: none;
+                        @include flex (flex, space-between, center);
+                        flex-direction: column;
+                        margin-left: 15px;
+                        visibility: hidden;
+                        transition: visibility 2s;
                         z-index: 100;
                         background-color: $color2;
                         border-radius: 5px;
@@ -275,9 +281,7 @@ body {
                     }
                 }
                 .cart-div:hover .cart-box {
-                    @include flex (flex, space-between, center);
-                    flex-direction: column;
-                    margin-left: 15px;
+                    visibility: visible;
                 }
                 .none {
                     display: none;
@@ -305,7 +309,8 @@ body {
                         background-color: $color3;
                         width: 100%;
                         border-radius: 10px;
-                        display: none;
+                        visibility: hidden;
+                        transition: visibility 2s ease-in-out 0s;
                         .mini-ul {
                             @include flex (flex, space-around, center);
                             padding: 5px 10px;
@@ -335,7 +340,7 @@ body {
                     }
                 }
                 .main-li:hover .detailed-menu{
-                    display: block;
+                    visibility: visible;
                 }
             }
             .burger {
@@ -533,6 +538,7 @@ body {
                         height: 100%;
                         object-fit: contain;
                         border-radius: 20px;
+                        transition: opacity 1s ease-out 0s;
                     }
                     .store {
                         @include absolute-left (absolute, 50%, 50%);
@@ -540,22 +546,23 @@ body {
                         height: 100%;
                         width: 100%;
                         border-radius: 20px;
-                        display: hidden;
+                        background-color: transparent;
+                        transition: background-color 2s ease-in 1s;
                         h4 {
                             @include font ($fontfamily1, $font1, bold, $color03);
-                            display: none;
                             margin: 38% 30%;
+                            opacity: 0;
+                            transition: opacity 1s ease-in 0s;
                         }
                     }
                 }
                 a:hover img {
-                    opacity:10%;
+                    opacity: 0%;
                 }
                 a:hover .store {
-                    display: block;
                     background-color: $color2;
                     h4 {
-                        display: inline-block;
+                        opacity: 1;
                         
                     }
                 }

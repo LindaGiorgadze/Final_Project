@@ -91,7 +91,11 @@
                     border-radius: 5px;
                 }
                 .info {
-                    display: none;
+                    @include flex (flex, space-around, stretch);
+                    flex-flow: column;
+                    border-radius: 5px;
+                    opacity: 0;
+                    transition: opacity 1.5s ease-in-out 0s;
                     width: 100%;
                     position: absolute;
                     z-index: 9;
@@ -158,9 +162,7 @@
                 }
             }
             .cloth-item:hover .info {
-                @include flex (flex, space-around, stretch);
-                flex-flow: column;
-                border-radius: 5px;
+                opacity: 1;
             }
         }
     }
