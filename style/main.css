@@ -131,7 +131,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: linear; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -306,7 +306,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: linear; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -580,7 +580,7 @@ body {
             align-items: flex-end;
             flex-direction: column;
             visibility: hidden;
-            transition: visibility 2s;
+            transition: visibility 1s;
             z-index: 100;
             padding: 5px 8px;
             background-color: #993366;
@@ -612,7 +612,7 @@ body {
             flex-direction: column;
             margin-left: 15px;
             visibility: hidden;
-            transition: visibility 2s;
+            transition: visibility 0.2s;
             z-index: 100;
             background-color: white;
             border-radius: 5px;
@@ -815,7 +815,6 @@ body {
     margin-top: 210px; }
     body .container .slider {
       width: 100%;
-      height: 100%;
       position: relative;
       z-index: 1; }
       body .container .slider .slides {
@@ -824,23 +823,35 @@ body {
         height: 100%;
         height: 225px;
         object-fit: cover; }
-      body .container .slider .slide-button-left {
-        position: absolute;
-        top: 50%;
-        left: 5px;
-        transform: translate(0, -50%);
-        z-index: 9;
-        color: black;
-        font-size: 25px;
-        background-color: #df9fbf; }
-      body .container .slider .slide-button-right {
-        position: absolute;
-        top: 50%;
-        right: 5px;
-        transform: translate(0, -50%);
-        z-index: 9;
-        color: black;
-        font-size: 25px;
+      body .container .slider .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+    body .container .dots {
+      margin-top: 5px;
+      text-align: center; }
+      body .container .dots .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease; }
+      body .container .dots .active {
         background-color: #df9fbf; }
     body .container .bottom-container {
       padding: 20px 60px;
@@ -1026,7 +1037,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: linear; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -1182,7 +1193,7 @@ body header .top .customer .login .email input, body header .top .customer .logi
       flex-flow: column;
       border-radius: 5px;
       opacity: 0;
-      transition: opacity 1.5s ease-in-out 0s;
+      transition: opacity 1.5s linear 0s;
       width: 100%;
       position: absolute;
       z-index: 9;
@@ -1345,7 +1356,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: linear; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -1698,7 +1709,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: linear; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -1888,7 +1899,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: linear; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -2210,7 +2221,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: linear; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -2398,7 +2409,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: linear; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
@@ -2597,7 +2608,7 @@ body .intro-right, body .intro-left, body .start-button {
   animation-direction: normal;
   animation-timing-function: linear; }
 
-body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, body .container .slider .slide-button-left, body .container .slider .slide-button-right, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
+body header .top .customer .login .email input, body header .top .customer .login .password input, body header .top .customer .login .visible .responsive-email input, body header .top .customer .login .visible .responsive-password input, body header .top .customer .login .visible .login-submit, body header .top .customer .login .login-button, body header .top .customer .cart-div .cart-box .check-out, body header .search-menu .search input, .container .bottom-container .catalogue-sticky, .container .bottom-container .catalogue-sticky .catalogue-option-div .catalogue-option select, .container .bottom-container .catalogue-sticky .sticky-button, .container .bottom-container .detailed .product-slides .slide-button-left-product, .container .bottom-container .detailed .product-slides .slide-button-right-product, .container .bottom-container .detailed .detailed-option .options .option select, .container .bottom-container .detailed .detailed-option .add-cart, .register-container .register-container .register-input .gap input, .register-container .register-container .register-input .gap select, .register-container .register-container .submit {
   border: solid 2px #ffe6ff;
   border-radius: 8px; }
 
