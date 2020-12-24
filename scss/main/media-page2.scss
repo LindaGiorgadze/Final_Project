@@ -12,7 +12,9 @@
                     min-width: 255px;
                 }
                 .clothes-div {
-                    justify-content: space-between;
+                    -webkit-box-pack: justify;
+                        -ms-flex-pack: justify;
+                            justify-content: space-between;
                     .cloth-item {
                         margin: 0 20px 60px 20px;
                     }
@@ -28,7 +30,9 @@
         .container{
             .bottom-container{
                 .clothes-div {
-                    justify-content: center;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
                 }
             }
         }
@@ -44,9 +48,15 @@
                     position: unset;
                     height: unset;
                     .catalogue-option-div {
-                        flex-direction: row;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
                         .catalogue-option {
-                            flex-direction: column;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                                -ms-flex-direction: column;
+                                    flex-direction: column;
                         }
                     }
                 }
@@ -65,10 +75,15 @@
             .bottom-container {
                 .catalogue-sticky {
                     .catalogue-option-div {
-                        flex-direction: row;
-                        flex-wrap: wrap;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        -ms-flex-wrap: wrap;
+                            flex-wrap: wrap;
                         .catalogue-option {
-                            flex-basis: 20%;
+                            -ms-flex-preferred-size: 20%;
+                                flex-basis: 20%;
                         }
                     }
                 }
@@ -92,11 +107,19 @@
             .bottom-container {
                 .catalogue-sticky {
                     .catalogue-option-div {
-                        flex-direction: row;
-                        flex-wrap: wrap;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        -ms-flex-wrap: wrap;
+                            flex-wrap: wrap;
                         .catalogue-option {
-                            flex-basis: 20%;
-                            flex-direction: unset;
+                            -ms-flex-preferred-size: 20%;
+                                flex-basis: 20%;
+                            -webkit-box-orient: unset;
+                            -webkit-box-direction: unset;
+                                -ms-flex-direction: unset;
+                                    flex-direction: unset;
                         }
                     }
                 }

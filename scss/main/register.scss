@@ -4,7 +4,10 @@
 
 .register-container {
     @include flex (flex, space-around, center);
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     .register-container {
         @include flex (flex, space-between, center);
         background-color: $color3;
@@ -18,7 +21,10 @@
         .register-input {
             @include flex (flex, space-around, flex-end);
             margin: 0 auto;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
             padding: 5px;
             .gap {
                 display: inline-block;
@@ -44,7 +50,9 @@
             background-color: transparent;
         }
         .submit:hover {
-            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                    transform: scale(1.2);
         }
     }
 }

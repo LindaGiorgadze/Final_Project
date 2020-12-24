@@ -10,17 +10,29 @@ body {
         background-color: $color2;
         width: 100%;
         height: 100%;
-        clip-path: polygon(70% 0, 100% 0%, 100% 100%, 70% 100%, 45% 50%);
+        -webkit-clip-path: polygon(70% 0, 100% 0%, 100% 100%, 70% 100%, 45% 50%);
+                clip-path: polygon(70% 0, 100% 0%, 100% 100%, 70% 100%, 45% 50%);
         position: fixed;
         top: 0;
         z-index: 99;
-        animation-name: intro-right;
+        -webkit-animation-name: intro-right;
+                animation-name: intro-right;
         @extend %animation1;
+        @-webkit-keyframes intro-right {
+            0% {right: -50%;}
+            85% { right: 0;}
+            98% { right: -5%;}
+            100% {right: 0}
+        }
         @keyframes intro-right {
             0% {right: -50%;}
             85% { right: 0;}
             98% { right: -5%;}
             100% {right: 0}
+        }
+        @-webkit-keyframes intro-right-active {
+            0% {right: 0;}
+            100% {right: -100%}
         }
         @keyframes intro-right-active {
             0% {right: 0;}
@@ -29,7 +41,8 @@ body {
         img {
             height: 100%;
             width: 100%;
-            object-fit: cover;
+            -o-object-fit: cover;
+               object-fit: cover;
             opacity: 70%;
         }
     }
@@ -37,17 +50,29 @@ body {
         background-color: $color2;
         width: 100%;
         height: 100%;
-        clip-path: polygon(70% 0, 0 0, 0 100%, 70% 100%, 45% 50%);
+        -webkit-clip-path: polygon(70% 0, 0 0, 0 100%, 70% 100%, 45% 50%);
+                clip-path: polygon(70% 0, 0 0, 0 100%, 70% 100%, 45% 50%);
         position: fixed;
         top: 0;
         z-index: 99;
-        animation-name: intro-left;
+        -webkit-animation-name: intro-left;
+                animation-name: intro-left;
         @extend %animation1;
+        @-webkit-keyframes intro-left {
+            0% {left: -50%;}
+            85% { left: 0;}
+            98% { left: -5%;}
+            100% {left: 0}
+        }
         @keyframes intro-left {
             0% {left: -50%;}
             85% { left: 0;}
             98% { left: -5%;}
             100% {left: 0}
+        }
+        @-webkit-keyframes intro-left-active {
+            0% {left: 0;}
+            100% {left: -100%}
         }
         @keyframes intro-left-active {
             0% {left: 0;}
@@ -56,7 +81,8 @@ body {
         img {
             height: 100%;
             width: 100%;
-            object-fit: cover;
+            -o-object-fit: cover;
+               object-fit: cover;
             opacity: 70%;
         }
     }
@@ -67,20 +93,34 @@ body {
         background-color: $color1;
         border: solid 2px;
         border-radius: 20px;
-        box-shadow: 0px 0px 90px 25px $color1;
+        -webkit-box-shadow: 0px 0px 90px 25px $color1;
+                box-shadow: 0px 0px 90px 25px $color1;
         padding: 10px 14px;
         position: fixed;
         top: 50%;
         right: 50%;
-        transform: translate(75%,-50%);
+        -webkit-transform: translate(75%,-50%);
+            -ms-transform: translate(75%,-50%);
+                transform: translate(75%,-50%);
         z-index: 100;
-        animation-name: intro-button;
+        -webkit-animation-name: intro-button;
+                animation-name: intro-button;
         @extend %animation1;
+        @-webkit-keyframes intro-button {
+            0% {right: 10%;}
+            85% { right: 60%;}
+            98% { right: 55%;}
+            100% {right: 60%}
+        }
         @keyframes intro-button {
             0% {right: 10%;}
             85% { right: 60%;}
             98% { right: 55%;}
             100% {right: 60%}
+        }
+        @-webkit-keyframes start-button-active {
+            0% {right: 0;}
+            100% {right: -100%}
         }
         @keyframes start-button-active {
             0% {right: 0;}
@@ -107,7 +147,8 @@ body {
                     width: 60px;
                     height: 60px;
                     height: 100%;
-                    object-fit: contain;
+                    -o-object-fit: contain;
+                       object-fit: contain;
                 }
             }
             .customer {
@@ -116,7 +157,10 @@ body {
                     @include flex (flex, space-between, flex-end);
                     .email, .password {
                         @include flex (flex, space-between, flex-start);
-                        flex-direction: column;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
                         margin-left: 15px;
                         label {
                             @include font ($fontfamily1, $font3, 600, $color03);
@@ -138,16 +182,24 @@ body {
                         position: fixed;
                         top: 50%;
                         right: 50%;
-                        transform: translate(50%, -50%);
+                        -webkit-transform: translate(50%, -50%);
+                            -ms-transform: translate(50%, -50%);
+                                transform: translate(50%, -50%);
                         width: 50%;
                         background-color: $color3;
                         padding: $size013;
                         border-radius: 10px;
                         @include flex (flex, space-around, center);
-                        flex-direction: column;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
                         .responsive-email, .responsive-password {
                             @include flex (flex, space-between, flex-start);
-                            flex-direction: column;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                                -ms-flex-direction: column;
+                                    flex-direction: column;
                             margin-top: 10px;
                             label {
                                 @include font ($fontfamily1, $font3, 600, $color03);
@@ -167,7 +219,9 @@ body {
                             padding: 5px 10px;
                         }
                         .login-submit:hover {
-                            transform: scale(1.2);
+                            -webkit-transform: scale(1.2);
+                                -ms-transform: scale(1.2);
+                                    transform: scale(1.2);
                         }
                     }
                     .login-button {
@@ -182,12 +236,17 @@ body {
                         }
                     }
                     .login-button:hover {
-                        transform: scale(1.2);
+                        -webkit-transform: scale(1.2);
+                            -ms-transform: scale(1.2);
+                                transform: scale(1.2);
                     }
                 }
                 .user {
                     @include flex (flex, space-between, center);
-                    flex-direction: row;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: row;
+                            flex-direction: row;
                     position: relative;
                     h3 {
                         font-size: $font3;
@@ -199,14 +258,20 @@ body {
                         .arrow {
                             width: $size09;
                             height: $size09;
-                            object-fit: cover;
+                            -o-object-fit: cover;
+                               object-fit: cover;
                             margin: 0 0 0 10px;
                         }
                         .user-details {
                             @include absolute-right (absolute, 20px, 0);
                             @include flex (flex, space-between, flex-end);
-                            flex-direction: column;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                                -ms-flex-direction: column;
+                                    flex-direction: column;
                             visibility: hidden;
+                            -webkit-transition: visibility 1s;
+                            -o-transition: visibility 1s;
                             transition: visibility 1s;
                             z-index: 100;
                             padding: 5px 8px;
@@ -230,15 +295,21 @@ body {
                     .cart {
                         width: $size013;
                         height: $size013;
-                        object-fit: contain;
+                        -o-object-fit: contain;
+                           object-fit: contain;
                         margin: 0 0 0 $size09;
                     }
                     .cart-box {
                         @include absolute-right (absolute, 32px, 0);
                         @include flex (flex, space-between, center);
-                        flex-direction: column;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
                         margin-left: 15px;
                         visibility: hidden;
+                        -webkit-transition: visibility 0.2s;
+                        -o-transition: visibility 0.2s;
                         transition: visibility 0.2s;
                         z-index: 100;
                         background-color: $color2;
@@ -246,11 +317,15 @@ body {
                         padding: 10px;
                         .product {
                             @include flex (flex, space-between, flex-start);
-                            flex-direction: row;
+                            -webkit-box-orient: horizontal;
+                            -webkit-box-direction: normal;
+                                -ms-flex-direction: row;
+                                    flex-direction: row;
                             padding: 10px;
                             img {
                                 width: $size08;
-                                object-fit: contain;
+                                -o-object-fit: contain;
+                                   object-fit: contain;
                             }
                             .product-details {
                                 .product-name {
@@ -276,7 +351,9 @@ body {
                             color: $color03;
                         }
                         .check-out:hover {
-                            transform: scale(1.1);
+                            -webkit-transform: scale(1.1);
+                                -ms-transform: scale(1.1);
+                                    transform: scale(1.1);
                         }
                     }
                 }
@@ -310,6 +387,8 @@ body {
                         width: 100%;
                         border-radius: 10px;
                         visibility: hidden;
+                        -webkit-transition: visibility 2s ease-in-out 0s;
+                        -o-transition: visibility 2s ease-in-out 0s;
                         transition: visibility 2s ease-in-out 0s;
                         .mini-ul {
                             @include flex (flex, space-around, center);
@@ -349,12 +428,7 @@ body {
                 width: 45px;
                 height: 30px;
                 position: relative;
-                // -webkit-transform: rotate(0deg);
-                // -moz-transform: rotate(0deg);
-                // -o-transform: rotate(0deg);
-                // transform: rotate(0deg);
                 -webkit-transition: .5s ease-in-out;
-                -moz-transition: .5s ease-in-out;
                 -o-transition: .5s ease-in-out;
                 transition: .5s ease-in-out;
                 cursor: pointer;
@@ -368,11 +442,9 @@ body {
                     opacity: 1;
                     left: 0;
                     -webkit-transform: rotate(0deg);
-                    -moz-transform: rotate(0deg);
-                    -o-transform: rotate(0deg);
-                    transform: rotate(0deg);
+                    -ms-transform: rotate(0deg);
+                        transform: rotate(0deg);
                     -webkit-transition: .25s ease-in-out;
-                    -moz-transition: .25s ease-in-out;
                     -o-transition: .25s ease-in-out;
                     transition: .25s ease-in-out;
                 }
@@ -381,7 +453,9 @@ body {
                     position: fixed;
                     top: 148px;
                     left: 50%;
-                    transform: translate(-50%, 0);
+                    -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                            transform: translate(-50%, 0);
                     width: 90%;
                     background-color: $color6;
                     border-radius: 10px;
@@ -406,28 +480,36 @@ body {
                         }
                         .burger-main-li:hover .burger-detailed-menu {
                             @include flex(flex, space-between, center);
-                            flex-direction: column;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                                -ms-flex-direction: column;
+                                    flex-direction: column;
                         }
                     }
                 }
             }
             .burger span:nth-child(1){
                 top: 0%;
-                transform: translate(0, -50%);
+                -webkit-transform: translate(0, -50%);
+                    -ms-transform: translate(0, -50%);
+                        transform: translate(0, -50%);
             }
             .burger span:nth-child(2){
                 top: 50%;
-                transform: translate(0, -50%);
+                -webkit-transform: translate(0, -50%);
+                    -ms-transform: translate(0, -50%);
+                        transform: translate(0, -50%);
             }
             .burger span:nth-child(3){
                 top: 100%;
-                transform: translate(0, -50%);
+                -webkit-transform: translate(0, -50%);
+                    -ms-transform: translate(0, -50%);
+                        transform: translate(0, -50%);
             }
             .burger:hover span:nth-child(1){
                 -webkit-transform: rotate(45deg);
-                -moz-transform: rotate(45deg);
-                -o-transform: rotate(45deg);
-                transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                    transform: rotate(45deg);
                 top: 50%;
                 left: 0px;
             }
@@ -437,15 +519,17 @@ body {
             }
             .burger:hover span:nth-child(3){
                 -webkit-transform: rotate(-45deg);
-                -moz-transform: rotate(-45deg);
-                -o-transform: rotate(-45deg);
-                transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
                 top: 50%;
                 left: 0;
             }
             .burger:hover .burger-menu {
                 @include flex(flex, space-between, flex-start);
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
             }
             .search {
                 @include flex (flex, space-between, flex-end);
@@ -462,7 +546,8 @@ body {
                         width: $size014;
                         height: 100%;
                         margin-left: 15px;
-                        object-fit: contain;
+                        -o-object-fit: contain;
+                           object-fit: contain;
                     }
                 }
                 .search-button:hover {
@@ -485,7 +570,8 @@ body {
                 width: 100%;
                 height: 100%;
                 height: 225px;
-                object-fit: cover;
+                -o-object-fit: cover;
+                   object-fit: cover;
             }
             .fade {
                 -webkit-animation-name: fade;
@@ -514,6 +600,8 @@ body {
                 background-color: $color2;
                 border-radius: 50%;
                 display: inline-block;
+                -webkit-transition: background-color 0.6s ease;
+                -o-transition: background-color 0.6s ease;
                 transition: background-color 0.6s ease;
             }
             .active {
@@ -526,6 +614,7 @@ body {
             @include flex (flex, space-between, flex-start);
             position: relative;
             .sticky {
+                position: -webkit-sticky;
                 position: sticky;
                 top: 258px;
                 width: 300px;
@@ -536,35 +625,46 @@ body {
             .stores-div {
                 @include flex (flex, space-around, center);
                 width: 100%;
-                flex-wrap: wrap;
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
                 a {
                     display: block;
                     margin: 0 15px 50px 15px;
                     width: $size04;
                     height: $size04;
                     border-radius: 20px;
-                    box-shadow: 0px 0px 46px -11px $color3;
+                    -webkit-box-shadow: 0px 0px 46px -11px $color3;
+                            box-shadow: 0px 0px 46px -11px $color3;
                     position: relative;
                     background-color: $color2;
                     img {
                         width: 100%;
                         height: 100%;
-                        object-fit: contain;
+                        -o-object-fit: contain;
+                           object-fit: contain;
                         border-radius: 20px;
+                        -webkit-transition: opacity 1s ease-out 0s;
+                        -o-transition: opacity 1s ease-out 0s;
                         transition: opacity 1s ease-out 0s;
                     }
                     .store {
                         @include absolute-left (absolute, 50%, 50%);
-                        transform: translate(-50%, -50%);
+                        -webkit-transform: translate(-50%, -50%);
+                            -ms-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
                         height: 100%;
                         width: 100%;
                         border-radius: 20px;
                         background-color: transparent;
+                        -webkit-transition: background-color 2s ease-in 1s;
+                        -o-transition: background-color 2s ease-in 1s;
                         transition: background-color 2s ease-in 1s;
                         h4 {
                             @include font ($fontfamily1, $font1, bold, $color03);
                             margin: 38% 30%;
                             opacity: 0;
+                            -webkit-transition: opacity 1s ease-in 0s;
+                            -o-transition: opacity 1s ease-in 0s;
                             transition: opacity 1s ease-in 0s;
                         }
                     }
@@ -594,7 +694,8 @@ body {
                 width: 150px;
                 height: 150px;
                 height: 100%;
-                object-fit: contain;
+                -o-object-fit: contain;
+                   object-fit: contain;
             }
             .footer-nav {
                 ul {
@@ -615,7 +716,8 @@ body {
                         width: 30px;
                         height: 30px;
                         width: 100%;
-                        object-fit: contain;
+                        -o-object-fit: contain;
+                           object-fit: contain;
                         border-radius: 2px;
                     }
                 }
@@ -625,5 +727,4 @@ body {
     }
     
 }
-
 

@@ -138,6 +138,8 @@
                     display: none;
                 }
                 .burger {
+                    display: -webkit-inline-box;
+                    display: -ms-inline-flexbox;
                     display: inline-flex;
                 }
             }
@@ -151,7 +153,10 @@
             }
             .bottom-container {
                 @include flex(flex, space-between, center);
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
                 .sticky {
                     position: unset;
                     width: 100%;
@@ -240,7 +245,10 @@
                 }
                 .social-icons {
                     .icons-ul {
-                        flex-direction: column;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
                         li {
                             margin-bottom: 6px;
                             a {
@@ -324,7 +332,8 @@
         }
         footer {
             .footer-div {
-                flex-wrap: wrap;
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
                 .logo {
                     width: 85px;
                     height: 85px;
@@ -332,15 +341,22 @@
                 .footer-nav {
                     ul {
                         @include flex (flex, space-between, flex-end);
-                        flex-direction: column;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
                     }
                 }
                 .social-icons {
                     width: 100%;
                     margin: 30px auto 0;
-                    align-self: flex-end;
+                    -ms-flex-item-align: end;
+                        align-self: flex-end;
                     .icons-ul {
-                        flex-direction: row;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
                         li {
                             a {
                                 img {
